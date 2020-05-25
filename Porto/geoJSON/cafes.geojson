@@ -1,0 +1,5636 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2020-05-18T20:47:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/447907479",
+        "amenity": "cafe",
+        "name": "Confeitaria Doce Alto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5860532,
+          41.1749994
+        ]
+      },
+      "id": "node/447907479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/663689225",
+        "amenity": "cafe",
+        "name": "Chapeu de Uvas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5571266,
+          41.1593804
+        ]
+      },
+      "id": "node/663689225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/663694568",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5556551,
+          41.1602014
+        ]
+      },
+      "id": "node/663694568"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/773982500",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Café Barcarola"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5942605,
+          41.1668988
+        ]
+      },
+      "id": "node/773982500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/915486438",
+        "amenity": "cafe",
+        "name": "Xiquibem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5532822,
+          41.1764083
+        ]
+      },
+      "id": "node/915486438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/987218116",
+        "amenity": "cafe",
+        "name": "Porto Santo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6023719,
+          41.153331
+        ]
+      },
+      "id": "node/987218116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/987218126",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6020876,
+          41.153327
+        ]
+      },
+      "id": "node/987218126"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1230002021",
+        "amenity": "cafe",
+        "name": "Mauricia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6893981,
+          41.1799023
+        ]
+      },
+      "id": "node/1230002021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1238407986",
+        "amenity": "cafe",
+        "name": "Bus Café"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6855433,
+          41.1828797
+        ]
+      },
+      "id": "node/1238407986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1238482921",
+        "amenity": "cafe",
+        "name": "Libra Lounge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6823911,
+          41.1836685
+        ]
+      },
+      "id": "node/1238482921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1238487744",
+        "amenity": "cafe",
+        "name": "Academia de Bilhar Grilo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6842983,
+          41.1836564
+        ]
+      },
+      "id": "node/1238487744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1243160586",
+        "amenity": "cafe",
+        "name": "Pop 2000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6853314,
+          41.1844821
+        ]
+      },
+      "id": "node/1243160586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1243160599",
+        "amenity": "cafe",
+        "name": "Star Coffe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6848599,
+          41.1844281
+        ]
+      },
+      "id": "node/1243160599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1243160648",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6827596,
+          41.1822823
+        ]
+      },
+      "id": "node/1243160648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1243228643",
+        "amenity": "cafe",
+        "name": "Café Triangulo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5658915,
+          41.1697857
+        ]
+      },
+      "id": "node/1243228643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1243228644",
+        "amenity": "cafe",
+        "name": "Café Trovador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5657306,
+          41.1690225
+        ]
+      },
+      "id": "node/1243228644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1278190164",
+        "amenity": "cafe",
+        "name": "Starbucks",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.613507,
+          41.1457892
+        ]
+      },
+      "id": "node/1278190164"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1278707833",
+        "addr:street": "Rua de Sampaio Bruno",
+        "amenity": "cafe",
+        "name": "Café Embaixador",
+        "wifi": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6107162,
+          41.1469164
+        ]
+      },
+      "id": "node/1278707833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1279346603",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6763669,
+          41.1497155
+        ]
+      },
+      "id": "node/1279346603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1291504499",
+        "amenity": "cafe",
+        "name": "Frei tuck"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5966189,
+          41.160963
+        ]
+      },
+      "id": "node/1291504499"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1295560713",
+        "addr:street": "Rua do Bonjardim",
+        "amenity": "cafe",
+        "cuisine": "sandwich",
+        "name": "Café Nelma",
+        "wifi": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6076305,
+          41.1556368
+        ]
+      },
+      "id": "node/1295560713"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1295575257",
+        "amenity": "cafe",
+        "cuisine": "sandwich",
+        "name": "Transturística"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6092223,
+          41.155021
+        ]
+      },
+      "id": "node/1295575257"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1329505031",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Confeitaria Doce Alto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5936719,
+          41.1667844
+        ]
+      },
+      "id": "node/1329505031"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1333616027",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Cafetaria Pião"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5877432,
+          41.1658605
+        ]
+      },
+      "id": "node/1333616027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1333616032",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Café Babo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5883466,
+          41.1660281
+        ]
+      },
+      "id": "node/1333616032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1386051841",
+        "addr:housenumber": "363",
+        "addr:street": "Rua da Senhora da Luz",
+        "amenity": "cafe",
+        "name": "Tavi - Confeitaria",
+        "opening_hours": "Mo-Su 08:30-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6774732,
+          41.1520696
+        ]
+      },
+      "id": "node/1386051841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1487171476",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6228546,
+          41.1569861
+        ]
+      },
+      "id": "node/1487171476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1489268674",
+        "amenity": "cafe",
+        "name": "Edifício Transparente",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.687788,
+          41.1714102
+        ]
+      },
+      "id": "node/1489268674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1561621079",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6275686,
+          41.1800716
+        ]
+      },
+      "id": "node/1561621079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1694880604",
+        "amenity": "cafe",
+        "name": "Bar da CCDRN"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6316799,
+          41.1515572
+        ]
+      },
+      "id": "node/1694880604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1786243757",
+        "addr:housenumber": "Lote 1",
+        "addr:postcode": "4460-290",
+        "addr:street": "Rua da Cruz de Pau",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Confeitaria Pérola do Mar",
+        "wifi": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6698889,
+          41.1822591
+        ]
+      },
+      "id": "node/1786243757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1804497642",
+        "addr:city": "Porto",
+        "addr:country": "PT",
+        "addr:housenumber": "89",
+        "addr:postcode": "4000-066",
+        "addr:street": "Avenida dos Aliados",
+        "amenity": "cafe",
+        "contact:email": "guarany@mail.telepac.pt",
+        "contact:fax": "+351 222 002710",
+        "contact:phone": "+351 223 321272",
+        "contact:website": "www.cafeguarany.com",
+        "internet_access": "wlan",
+        "name": "Guarany Café-Restaurante",
+        "opening_hours": "Mo 09:00-24:00; Dec 25 off; Jan 1 off",
+        "start_date": "1933",
+        "toilets:wheelchair": "no",
+        "wheelchair": "limited",
+        "wifi": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6114785,
+          41.1478158
+        ]
+      },
+      "id": "node/1804497642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1837370527",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5855126,
+          41.179468
+        ]
+      },
+      "id": "node/1837370527"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1837375676",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5835153,
+          41.1803608
+        ]
+      },
+      "id": "node/1837375676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2006401584",
+        "amenity": "cafe",
+        "name": "Café Estádio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5905056,
+          41.1626202
+        ]
+      },
+      "id": "node/2006401584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2041694225",
+        "amenity": "cafe",
+        "name": "Marcitânia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5888679,
+          41.146563
+        ]
+      },
+      "id": "node/2041694225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2052851294",
+        "amenity": "cafe",
+        "name": "Café Roma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5905075,
+          41.1469652
+        ]
+      },
+      "id": "node/2052851294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2053592541",
+        "addr:housenumber": "91",
+        "addr:postcode": "4300-295",
+        "addr:street": "Rua do Bonfim",
+        "amenity": "cafe",
+        "name": "Confeitaria",
+        "name:en": "Confeitaria Abreu",
+        "name:pt": "Confeitaria Abreu",
+        "opening_hours": "Mo-Sa 07:00-19:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.597938,
+          41.1486819
+        ]
+      },
+      "id": "node/2053592541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2053592544",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5979916,
+          41.1486577
+        ]
+      },
+      "id": "node/2053592544"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2053597019",
+        "amenity": "cafe",
+        "name": "Confeitaria Chicana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5967416,
+          41.146066
+        ]
+      },
+      "id": "node/2053597019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2086956143",
+        "addr:city": "Porto",
+        "addr:housenumber": "12",
+        "addr:street": "Praça de Almeida Garrett",
+        "alt_name": "\"O Rei das Sandes\"",
+        "amenity": "cafe",
+        "name": "Cafetaria Flor de São Bento"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6112433,
+          41.1452812
+        ]
+      },
+      "id": "node/2086956143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2203899468",
+        "addr:street": "Praça General Humberto Delgado",
+        "amenity": "cafe",
+        "name": "Restaurante Capitólio",
+        "wifi": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6114151,
+          41.1496618
+        ]
+      },
+      "id": "node/2203899468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2204099931",
+        "addr:street": "Rua do Bonjardim",
+        "amenity": "cafe",
+        "name": "Garça Real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6095258,
+          41.1481903
+        ]
+      },
+      "id": "node/2204099931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2204099954",
+        "addr:street": "Rua de Rodrigues Sampaio",
+        "amenity": "cafe",
+        "name": "Sublime"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6096104,
+          41.148733
+        ]
+      },
+      "id": "node/2204099954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2204100021",
+        "addr:street": "Rua de Sampaio Bruno",
+        "amenity": "cafe",
+        "name": "Acepipe",
+        "wifi": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6105213,
+          41.1467442
+        ]
+      },
+      "id": "node/2204100021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2204179800",
+        "addr:street": "Praça da Batalha",
+        "amenity": "cafe",
+        "name": "Chave D'Ouro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6072236,
+          41.1459157
+        ]
+      },
+      "id": "node/2204179800"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2204210340",
+        "addr:city": "Porto",
+        "addr:country": "PT",
+        "addr:housenumber": "52",
+        "addr:postcode": "4000-326",
+        "addr:street": "Rua do Loureiro",
+        "amenity": "cafe",
+        "name": "Confeitaria Serrana",
+        "shop": "confectionery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6103692,
+          41.1450608
+        ]
+      },
+      "id": "node/2204210340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2206516780",
+        "amenity": "cafe",
+        "name": "Pimm's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6155977,
+          41.1405578
+        ]
+      },
+      "id": "node/2206516780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2207202584",
+        "amenity": "cafe",
+        "name": "Tea Point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6145632,
+          41.143139
+        ]
+      },
+      "id": "node/2207202584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2207202595",
+        "amenity": "cafe",
+        "name": "Bobby's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6141005,
+          41.1430672
+        ]
+      },
+      "id": "node/2207202595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2208864704",
+        "amenity": "cafe",
+        "name": "Tropical",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6073631,
+          41.1457603
+        ]
+      },
+      "id": "node/2208864704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2209295124",
+        "amenity": "cafe",
+        "name": "Café dos Lóios"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6119708,
+          41.1455201
+        ]
+      },
+      "id": "node/2209295124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2213052165",
+        "amenity": "cafe",
+        "name": "Forno Velho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6179429,
+          41.1412978
+        ]
+      },
+      "id": "node/2213052165"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2222466728",
+        "amenity": "cafe",
+        "name": "Lobito"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6063215,
+          41.144601
+        ]
+      },
+      "id": "node/2222466728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2222466742",
+        "amenity": "cafe",
+        "name": "Bom Gosto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6064743,
+          41.1446554
+        ]
+      },
+      "id": "node/2222466742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2232547386",
+        "amenity": "cafe",
+        "name": "lado B Cafe Francesinha "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6048682,
+          41.1464691
+        ]
+      },
+      "id": "node/2232547386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2232562423",
+        "addr:housenumber": "198",
+        "addr:postcode": "4000-382",
+        "addr:street": "Rua de Passos Manuel",
+        "amenity": "cafe",
+        "name": "Clássico",
+        "name:pt": "Santiago",
+        "name:zh": "Santiago",
+        "opening_hours": "Mo-Sa 12:00-23:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6052745,
+          41.146555
+        ]
+      },
+      "id": "node/2232562423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2242976287",
+        "amenity": "cafe",
+        "name": "Barbarela"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6076284,
+          41.1462182
+        ]
+      },
+      "id": "node/2242976287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2243677098",
+        "alt_name": "Marbella Cafetaria",
+        "amenity": "cafe",
+        "name": "Marbella",
+        "smoking": "outside",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6071852,
+          41.1463348
+        ]
+      },
+      "id": "node/2243677098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2245134895",
+        "amenity": "cafe",
+        "name": "Seara Doce"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6045856,
+          41.145071
+        ]
+      },
+      "id": "node/2245134895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2245134899",
+        "amenity": "cafe",
+        "name": "Lua Nova"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6045174,
+          41.1447264
+        ]
+      },
+      "id": "node/2245134899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2245273253",
+        "amenity": "cafe",
+        "name": "Nova Estrela"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6168138,
+          41.1420372
+        ]
+      },
+      "id": "node/2245273253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2245273258",
+        "amenity": "cafe",
+        "name": "Dona Antónia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6150715,
+          41.1407089
+        ]
+      },
+      "id": "node/2245273258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2245968861",
+        "amenity": "cafe",
+        "name": "O Forno dos Clérigos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6131589,
+          41.1460323
+        ]
+      },
+      "id": "node/2245968861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2246117828",
+        "addr:housenumber": "32",
+        "addr:street": "Rua de José Falcão",
+        "amenity": "cafe",
+        "cuisine": "american;diner;pancake",
+        "name": "Diplomata",
+        "name:en": "O Diplomata",
+        "name:pt": "O Diplomata",
+        "opening_hours": "Th-Tu 10:00-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6143438,
+          41.1482122
+        ]
+      },
+      "id": "node/2246117828"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2247269138",
+        "addr:city": "Porto",
+        "addr:housenumber": "45",
+        "addr:postcode": "4050-456",
+        "addr:street": "Praça Parada Leitão",
+        "alt_name": "Café Âncora d'Ouro; Café Âncora de Ouro; Café d'Ouro; Café Piolho d'Ouro",
+        "amenity": "cafe",
+        "fax": "+351 222 081 201",
+        "name": "Café Piolho",
+        "phone": "+351 222 003 749",
+        "start_date": "1909-06-26",
+        "website": "http://www.cafepiolho.com",
+        "wikidata": "Q19703159"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6165454,
+          41.1469063
+        ]
+      },
+      "id": "node/2247269138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2247441961",
+        "amenity": "cafe",
+        "name": "Amor aos Pedaços"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6174543,
+          41.1436014
+        ]
+      },
+      "id": "node/2247441961"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2247441966",
+        "amenity": "cafe",
+        "name": "Ariane"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.617009,
+          41.1440801
+        ]
+      },
+      "id": "node/2247441966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2247441970",
+        "amenity": "cafe",
+        "name": "Vasquinho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6176072,
+          41.1434165
+        ]
+      },
+      "id": "node/2247441970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2247459917",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6157806,
+          41.1435014
+        ]
+      },
+      "id": "node/2247459917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2258298740",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6220682,
+          41.1440946
+        ]
+      },
+      "id": "node/2258298740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2295970029",
+        "amenity": "cafe",
+        "name": "Café Sandy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5972815,
+          41.1661843
+        ]
+      },
+      "id": "node/2295970029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2321280070",
+        "amenity": "cafe",
+        "name": "Brasil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6021914,
+          41.1468705
+        ]
+      },
+      "id": "node/2321280070"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2321280078",
+        "amenity": "cafe",
+        "name": "Bufete Padrão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6022585,
+          41.1470027
+        ]
+      },
+      "id": "node/2321280078"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2328343350",
+        "amenity": "cafe",
+        "name": "Nicaragua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5904584,
+          41.146816
+        ]
+      },
+      "id": "node/2328343350"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2353815524",
+        "addr:city": "Porto",
+        "addr:housenumber": "24; 25",
+        "addr:street": "Cais da Ribeira",
+        "amenity": "cafe",
+        "name": "Delicious Breakfa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6112459,
+          41.1406741
+        ]
+      },
+      "id": "node/2353815524"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2355944015",
+        "addr:city": "Porto",
+        "addr:country": "PT",
+        "addr:housenumber": "340e",
+        "addr:street": "Rua Aurélio da Paz dos Reis",
+        "amenity": "cafe",
+        "name": "Café Mítica Inspiração"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6240025,
+          41.1776885
+        ]
+      },
+      "id": "node/2355944015"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2355944021",
+        "addr:city": "Porto",
+        "addr:country": "PT",
+        "addr:housenumber": "12",
+        "addr:street": "Rua do Professor Sousa Júnior",
+        "amenity": "cafe",
+        "name": "Forninho Doce",
+        "shop": "pastry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6259797,
+          41.1778895
+        ]
+      },
+      "id": "node/2355944021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2365186270",
+        "amenity": "cafe",
+        "name": "Apolo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6119393,
+          41.1488084
+        ]
+      },
+      "id": "node/2365186270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2365186272",
+        "amenity": "cafe",
+        "name": "Safari"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6117192,
+          41.1489588
+        ]
+      },
+      "id": "node/2365186272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2367086418",
+        "amenity": "cafe",
+        "name": "Sanzala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6095715,
+          41.1489908
+        ]
+      },
+      "id": "node/2367086418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2367105947",
+        "amenity": "cafe",
+        "name": "Bem-me-Quer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6078523,
+          41.149116
+        ]
+      },
+      "id": "node/2367105947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2377948775",
+        "amenity": "cafe",
+        "name": "Porto Santo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6023737,
+          41.1471683
+        ]
+      },
+      "id": "node/2377948775"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2377958693",
+        "amenity": "cafe",
+        "name": "Kicé"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6033145,
+          41.1491536
+        ]
+      },
+      "id": "node/2377958693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2453042544",
+        "amenity": "cafe",
+        "name": "Sanduíche Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.636808,
+          41.1573
+        ]
+      },
+      "id": "node/2453042544"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2453049270",
+        "amenity": "cafe",
+        "atm": "yes",
+        "cuisine": "portuguese",
+        "name": "Forno da Boavista"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.633886,
+          41.158595
+        ]
+      },
+      "id": "node/2453049270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2453055442",
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "name": "San Remo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6368523,
+          41.1593425
+        ]
+      },
+      "id": "node/2453055442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2453056618",
+        "addr:city": "Porto",
+        "addr:country": "PT",
+        "addr:housenumber": "1046",
+        "addr:street": "Avenida da Boavista",
+        "amenity": "cafe",
+        "name": "Arcadia",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.636104,
+          41.1592052
+        ]
+      },
+      "id": "node/2453056618"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2466320325",
+        "addr:city": "Porto",
+        "addr:housenumber": "15",
+        "addr:street": "Rua de São Sebastião",
+        "alt_name": "Café Calhambeque",
+        "amenity": "cafe",
+        "name": "Calhambeque"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6124018,
+          41.1426688
+        ]
+      },
+      "id": "node/2466320325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2483836708",
+        "addr:city": "Porto",
+        "addr:country": "PT",
+        "amenity": "cafe",
+        "name": "Clips",
+        "shop": "pastry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.625622,
+          41.1767513
+        ]
+      },
+      "id": "node/2483836708"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2511210884",
+        "amenity": "cafe",
+        "name": "Decomur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6203328,
+          41.1477561
+        ]
+      },
+      "id": "node/2511210884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2511218707",
+        "amenity": "cafe",
+        "name": "Troia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6196636,
+          41.1484378
+        ]
+      },
+      "id": "node/2511218707"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2512927189",
+        "amenity": "cafe",
+        "name": "Rita"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6203676,
+          41.1462373
+        ]
+      },
+      "id": "node/2512927189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2513840738",
+        "amenity": "cafe",
+        "name": "Casa Mara"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6212473,
+          41.143771
+        ]
+      },
+      "id": "node/2513840738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2517247753",
+        "amenity": "cafe",
+        "name": "Capelio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6124146,
+          41.1406073
+        ]
+      },
+      "id": "node/2517247753"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2529077343",
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "name": "Café Poeta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6256441,
+          41.1649417
+        ]
+      },
+      "id": "node/2529077343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2530785481",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5524159,
+          41.1425966
+        ]
+      },
+      "id": "node/2530785481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2536208629",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "no",
+        "name": "Café Prestígio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5601744,
+          41.1724737
+        ]
+      },
+      "id": "node/2536208629"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2536210217",
+        "amenity": "cafe",
+        "cuisine": "Café_Enrolamassa",
+        "internet_access": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5586509,
+          41.1716754
+        ]
+      },
+      "id": "node/2536210217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2616000653",
+        "amenity": "cafe",
+        "name": "Vitor's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6175659,
+          41.1444261
+        ]
+      },
+      "id": "node/2616000653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2616015572",
+        "amenity": "cafe",
+        "name": "A Fonte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6178637,
+          41.1432869
+        ]
+      },
+      "id": "node/2616015572"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2677979785",
+        "amenity": "cafe",
+        "name": "Café Bugatti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6076678,
+          41.1623445
+        ]
+      },
+      "id": "node/2677979785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2678153279",
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "name": "Café São Nicolau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6175629,
+          41.1411125
+        ]
+      },
+      "id": "node/2678153279"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2681385585",
+        "amenity": "cafe",
+        "name": "Ice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6313136,
+          41.146521
+        ]
+      },
+      "id": "node/2681385585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2681386601",
+        "amenity": "cafe",
+        "name": "Beanata"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6308229,
+          41.1464504
+        ]
+      },
+      "id": "node/2681386601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2685951530",
+        "amenity": "cafe",
+        "name": "Sambru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.624324,
+          41.1495476
+        ]
+      },
+      "id": "node/2685951530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2759559382",
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "name": "Trigueirinha do Viso",
+        "phone": "22 610 0785"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6442805,
+          41.1789318
+        ]
+      },
+      "id": "node/2759559382"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2890880471",
+        "amenity": "cafe",
+        "name": "Cantarinha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6231544,
+          41.1501329
+        ]
+      },
+      "id": "node/2890880471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2890969340",
+        "amenity": "cafe",
+        "name": "Célia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6208217,
+          41.1497236
+        ]
+      },
+      "id": "node/2890969340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2892143785",
+        "amenity": "cafe",
+        "name": "O Teatro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6151389,
+          41.1488236
+        ]
+      },
+      "id": "node/2892143785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2892505357",
+        "amenity": "cafe",
+        "name": "Coronel Pacheco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6152971,
+          41.1510515
+        ]
+      },
+      "id": "node/2892505357"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2893289542",
+        "amenity": "cafe",
+        "name": "Confeitaria Ricardo Jorge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6118075,
+          41.1502759
+        ]
+      },
+      "id": "node/2893289542"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2893301210",
+        "addr:housenumber": "105",
+        "amenity": "cafe",
+        "description": "Cervejaria, Restaurante",
+        "name": "Metro da Trindade"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.611094,
+          41.1504273
+        ]
+      },
+      "id": "node/2893301210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2904182462",
+        "addr:city": "Porto",
+        "addr:housenumber": "963",
+        "addr:postcode": "4000-220",
+        "addr:street": "Rua de Fernandes Tomás",
+        "amenity": "cafe",
+        "contact:facebook": "https://www.facebook.com/profile.php?id=100010784118350",
+        "name": "Chafariz da Trindade",
+        "opening_hours": "Mo-Sa 07:00-02:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6098237,
+          41.1506382
+        ]
+      },
+      "id": "node/2904182462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2914523559",
+        "amenity": "cafe",
+        "name": "Bufete Trindade"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6093593,
+          41.1506794
+        ]
+      },
+      "id": "node/2914523559"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2925299203",
+        "amenity": "cafe",
+        "name": "Deu-la-Deu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6075061,
+          41.1488225
+        ]
+      },
+      "id": "node/2925299203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2925330190",
+        "amenity": "cafe",
+        "name": "Santarém"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6070325,
+          41.1489837
+        ]
+      },
+      "id": "node/2925330190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2925394654",
+        "addr:housenumber": "190",
+        "addr:postcode": "4000-382",
+        "addr:street": "Rua de Passos Manuel",
+        "amenity": "cafe",
+        "cuisine": "regional;portuguese;local",
+        "internet_access": "wlan",
+        "name": "Lado B",
+        "opening_hours": "Mo-Th 11:00-23:30; Fr-Sa 11:00-01:45",
+        "phone": "222014269",
+        "website": "https://www.ladobcafe.pt/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.605383,
+          41.1465801
+        ]
+      },
+      "id": "node/2925394654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2925441141",
+        "amenity": "cafe",
+        "name": "Mister Café"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6087463,
+          41.1462157
+        ]
+      },
+      "id": "node/2925441141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2929132812",
+        "amenity": "cafe",
+        "cuisine": "ice_cream",
+        "name": "Geladaria Neveiros",
+        "opening_hours": "Mo-Sa 08:00-19:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.600814,
+          41.1598565
+        ]
+      },
+      "id": "node/2929132812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2934488309",
+        "amenity": "cafe",
+        "name": "Xodó"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6080347,
+          41.1525268
+        ]
+      },
+      "id": "node/2934488309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2934488310",
+        "amenity": "cafe",
+        "name": "Nun'Álvares"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6073535,
+          41.1523461
+        ]
+      },
+      "id": "node/2934488310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2934496296",
+        "amenity": "cafe",
+        "name": "Belíssimo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6075814,
+          41.1510468
+        ]
+      },
+      "id": "node/2934496296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2937899526",
+        "amenity": "cafe",
+        "name": "Locarno"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.606715,
+          41.1521919
+        ]
+      },
+      "id": "node/2937899526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2937924964",
+        "amenity": "cafe",
+        "name": "Gostos e Paladares"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6064844,
+          41.1516345
+        ]
+      },
+      "id": "node/2937924964"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2937924965",
+        "amenity": "cafe",
+        "name": "Deu La Deu 2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6066052,
+          41.1514285
+        ]
+      },
+      "id": "node/2937924965"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2975747258",
+        "amenity": "cafe",
+        "name": "Confeitaria Cunha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6057709,
+          41.1519314
+        ]
+      },
+      "id": "node/2975747258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2975779308",
+        "amenity": "cafe",
+        "name": "Sinatra's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6064844,
+          41.1508913
+        ]
+      },
+      "id": "node/2975779308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2976471173",
+        "amenity": "cafe",
+        "name": "Deu-la-Deu I"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6069431,
+          41.1502813
+        ]
+      },
+      "id": "node/2976471173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3111593531",
+        "addr:city": "Porto",
+        "addr:country": "PT",
+        "addr:housenumber": "149-151",
+        "addr:postcode": "4000-450",
+        "addr:street": "Rua de Santa Catarina",
+        "alt_name": "Confeitaria Império Salão de Chá",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "email": "confeitaria.imperio@gmail.com",
+        "name": "Confeitaria Império",
+        "opening_hours": "Mo-Sa 07:30-00:00",
+        "phone": "+351 22 340 6187"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6067125,
+          41.1475395
+        ]
+      },
+      "id": "node/3111593531"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3139184432",
+        "addr:city": "Porto",
+        "addr:housenumber": "404",
+        "addr:postcode": "4300-025",
+        "addr:street": "Rua António Carneiro",
+        "amenity": "cafe",
+        "entrance": "yes",
+        "name": "Café Trópico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5938755,
+          41.1501068
+        ]
+      },
+      "id": "node/3139184432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3151523849",
+        "addr:city": "Porto",
+        "addr:street": "Rua da Estação",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Confeitaria Boa Viagem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5863011,
+          41.1483623
+        ]
+      },
+      "id": "node/3151523849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3162641253",
+        "addr:street": "Rua de Damião de Góis",
+        "amenity": "cafe",
+        "name": "Damião de Góis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6141869,
+          41.1619734
+        ]
+      },
+      "id": "node/3162641253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3162641254",
+        "addr:street": "Rua de Alves Redol",
+        "amenity": "cafe",
+        "name": "Erva Nasce",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6158714,
+          41.1606043
+        ]
+      },
+      "id": "node/3162641254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3444877619",
+        "amenity": "cafe",
+        "description": "Fecha ao Domingo",
+        "name": "Doce Mar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6814028,
+          41.1567048
+        ]
+      },
+      "id": "node/3444877619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3584490586",
+        "addr:city": "Porto",
+        "addr:country": "PT",
+        "addr:housenumber": "17",
+        "addr:postcode": "4000",
+        "addr:street": "Largo dos Lóios",
+        "amenity": "cafe",
+        "cuisine": "ice_cream",
+        "name": "Santini Porto",
+        "opening_hours": "Mo-Su 11:00-00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6121554,
+          41.1456442
+        ]
+      },
+      "id": "node/3584490586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3690948748",
+        "addr:housenumber": "339",
+        "addr:street": "Rua Formosa",
+        "amenity": "cafe",
+        "name": "Confeitaria do Bolhão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6076185,
+          41.1486206
+        ]
+      },
+      "id": "node/3690948748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3690977460",
+        "amenity": "cafe",
+        "name": "Baptista"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6069161,
+          41.1484005
+        ]
+      },
+      "id": "node/3690977460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3692588607",
+        "amenity": "cafe",
+        "name": "Spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6077565,
+          41.1482283
+        ]
+      },
+      "id": "node/3692588607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3692651165",
+        "amenity": "cafe",
+        "name": "Leitaria da Baixa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6075417,
+          41.1472669
+        ]
+      },
+      "id": "node/3692651165"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3694220803",
+        "amenity": "cafe",
+        "name": "BVP Café"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6099138,
+          41.1485985
+        ]
+      },
+      "id": "node/3694220803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3694236418",
+        "amenity": "cafe",
+        "name": "Sublime"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6095678,
+          41.1482673
+        ]
+      },
+      "id": "node/3694236418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3694252553",
+        "amenity": "cafe",
+        "name": "Aliança"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.610555,
+          41.1483537
+        ]
+      },
+      "id": "node/3694252553"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3694549819",
+        "amenity": "cafe",
+        "name": "Londres"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6084078,
+          41.1502873
+        ]
+      },
+      "id": "node/3694549819"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3694579903",
+        "amenity": "cafe",
+        "name": "Costa Moreira"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6085607,
+          41.1490554
+        ]
+      },
+      "id": "node/3694579903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3695831087",
+        "amenity": "cafe",
+        "description": "Breakfast, brunch, lunch, pastries & snacks",
+        "name": "Nata Lisboa",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6055941,
+          41.1505725
+        ]
+      },
+      "id": "node/3695831087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3695905667",
+        "amenity": "cafe",
+        "name": "Princesa Bolhão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6062108,
+          41.1499541
+        ]
+      },
+      "id": "node/3695905667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3696119702",
+        "amenity": "cafe",
+        "name": "Moreda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6067634,
+          41.1505944
+        ]
+      },
+      "id": "node/3696119702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3696127915",
+        "amenity": "cafe",
+        "name": "Snipe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6067073,
+          41.1507053
+        ]
+      },
+      "id": "node/3696127915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3696172652",
+        "alt_name": "Confeitaria Aquarela",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Aquarela"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6053027,
+          41.1508323
+        ]
+      },
+      "id": "node/3696172652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3696172653",
+        "addr:city": "Porto",
+        "addr:housenumber": "542",
+        "addr:street": "Rua de Santa Catarina",
+        "alt_name": "Confeitaria Belo Mundo",
+        "amenity": "cafe",
+        "name": "Belo Mundo",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6052831,
+          41.1508909
+        ]
+      },
+      "id": "node/3696172653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3696229115",
+        "amenity": "cafe",
+        "name": "Turista"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6076002,
+          41.149015
+        ]
+      },
+      "id": "node/3696229115"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3696390918",
+        "amenity": "cafe",
+        "name": "Dragão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6040335,
+          41.1477864
+        ]
+      },
+      "id": "node/3696390918"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3696497121",
+        "amenity": "cafe",
+        "name": "Galáctica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.604755,
+          41.1479743
+        ]
+      },
+      "id": "node/3696497121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3698020478",
+        "amenity": "cafe",
+        "name": "Las Casas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6028855,
+          41.1478814
+        ]
+      },
+      "id": "node/3698020478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3698193929",
+        "amenity": "cafe",
+        "name": "Estrela do Oriente"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6034327,
+          41.1491639
+        ]
+      },
+      "id": "node/3698193929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3707888986",
+        "addr:housenumber": "48",
+        "addr:street": "Passeio de São Lázaro",
+        "amenity": "cafe",
+        "name": "Duas de Letra",
+        "opening_hours": "Mo-We 10:00-22:00; Th-Sa 10:00-00:00; Su 14:00-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6022812,
+          41.1463928
+        ]
+      },
+      "id": "node/3707888986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3707895762",
+        "addr:housenumber": "44",
+        "addr:street": "Passeio de São Lázaro",
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "name": "Madame Gertrude",
+        "opening_hours": "Mo-Su 19:00-23:00; Tu off; We off; Fr,Sa 19:00-24:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6024234,
+          41.1463464
+        ]
+      },
+      "id": "node/3707895762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3757912781",
+        "addr:city": "Porto",
+        "addr:country": "PT",
+        "addr:housenumber": "165",
+        "addr:street": "Rua de Passos Manuel",
+        "amenity": "cafe",
+        "name": "The Traveller Caffe",
+        "outdoor_seating": "yes",
+        "phone": "+351 222 083476"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6053098,
+          41.1467919
+        ]
+      },
+      "id": "node/3757912781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3765154964",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6078796,
+          41.1801172
+        ]
+      },
+      "id": "node/3765154964"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3765159261",
+        "amenity": "cafe",
+        "name": "Bar x"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6074716,
+          41.1805856
+        ]
+      },
+      "id": "node/3765159261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3765159262",
+        "amenity": "cafe",
+        "name": "Bar 2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6080724,
+          41.1804887
+        ]
+      },
+      "id": "node/3765159262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3765159263",
+        "amenity": "cafe",
+        "name": "Bar Y"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6057711,
+          41.1802101
+        ]
+      },
+      "id": "node/3765159263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3765162611",
+        "addr:city": "Porto",
+        "addr:country": "PT",
+        "addr:street": "Rua Nova da Alfândega",
+        "amenity": "cafe",
+        "name": "Café Vime"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6167539,
+          41.1408367
+        ]
+      },
+      "id": "node/3765162611"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3765182805",
+        "amenity": "cafe",
+        "name": "Confeitaria O Pastel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6069254,
+          41.1618084
+        ]
+      },
+      "id": "node/3765182805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3765183181",
+        "amenity": "cafe",
+        "name": "Confeitaria Doce Alto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6041735,
+          41.1620103
+        ]
+      },
+      "id": "node/3765183181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3864799165",
+        "amenity": "cafe",
+        "name": "Canela Moscada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6706423,
+          41.1651253
+        ]
+      },
+      "id": "node/3864799165"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3864799168",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6882166,
+          41.168551
+        ]
+      },
+      "id": "node/3864799168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3897689866",
+        "amenity": "cafe",
+        "name": "Café Vasco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6793261,
+          41.1567709
+        ]
+      },
+      "id": "node/3897689866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3978743444",
+        "amenity": "cafe",
+        "name": "Bella Roma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6105149,
+          41.1468963
+        ]
+      },
+      "id": "node/3978743444"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3978817047",
+        "amenity": "cafe",
+        "name": "Tostinhas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6093148,
+          41.1474492
+        ]
+      },
+      "id": "node/3978817047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3992959731",
+        "amenity": "cafe",
+        "name": "Cerva"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6095559,
+          41.1461799
+        ]
+      },
+      "id": "node/3992959731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3993016458",
+        "amenity": "cafe",
+        "name": "Armazém do Café"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6088804,
+          41.1467983
+        ]
+      },
+      "id": "node/3993016458"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3993056263",
+        "amenity": "cafe",
+        "name": "Tupi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6085665,
+          41.1471165
+        ]
+      },
+      "id": "node/3993056263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4003518489",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6091422,
+          41.1552451
+        ]
+      },
+      "id": "node/4003518489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4024536633",
+        "addr:city": "Porto",
+        "addr:housenumber": "242",
+        "addr:postcode": "4000-330",
+        "addr:street": "Rua da Madeira",
+        "amenity": "cafe",
+        "contact:phone": "+351 222 057 435",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Café Brasil",
+        "opening_hours": "Mo-Fr 06:00-20:00; Sa,Su 08:00-20:00",
+        "operator": "Mariz & Companhia, Lda.",
+        "ref:vatin": "PT500559040",
+        "smoking": "no",
+        "start_date": "1859",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6102645,
+          41.1459669
+        ]
+      },
+      "id": "node/4024536633"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4232999325",
+        "amenity": "cafe",
+        "name": "Corcel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6509396,
+          41.1620041
+        ]
+      },
+      "id": "node/4232999325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4241119917",
+        "amenity": "cafe",
+        "name": "Rainha do Pão Quente"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5862823,
+          41.1484415
+        ]
+      },
+      "id": "node/4241119917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4241120889",
+        "addr:city": "Porto",
+        "addr:housenumber": "63",
+        "addr:postcode": "4050-293",
+        "addr:street": "Praça Guilherme Gomes Fernandes",
+        "amenity": "cafe",
+        "cuisine": "portuguese",
+        "name": "Praça 63",
+        "operator": "Clearcode, Lda",
+        "outdoor_seating": "yes",
+        "ref:vatin": "PT 514 159 456"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6149491,
+          41.1478372
+        ]
+      },
+      "id": "node/4241120889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4293930836",
+        "addr:city": "Porto",
+        "addr:street": "Rua dos Bragas",
+        "amenity": "cafe",
+        "name": "Confeitaria Royal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6138481,
+          41.1529321
+        ]
+      },
+      "id": "node/4293930836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4297940269",
+        "addr:housenumber": "35",
+        "addr:street": "Rua do Castelo de Numão",
+        "amenity": "cafe",
+        "name": "Café Numão",
+        "outdoor_seating": "yes",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6277457,
+          41.1688032
+        ]
+      },
+      "id": "node/4297940269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4321435290",
+        "addr:street": "Circunvalação Exterior",
+        "amenity": "cafe",
+        "name": "Casa Caninhas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5689175,
+          41.1781699
+        ]
+      },
+      "id": "node/4321435290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4354290472",
+        "amenity": "cafe",
+        "name": "Pão Fôfo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6102796,
+          41.1521639
+        ]
+      },
+      "id": "node/4354290472"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4378211499",
+        "addr:city": "Porto",
+        "addr:country": "PT",
+        "addr:housenumber": "45",
+        "addr:street": "Rua de Justino Teixeira",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Foguete",
+        "opening_hours": "Mo-Su 06:00-24:00; Sa off"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5864437,
+          41.1494216
+        ]
+      },
+      "id": "node/4378211499"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4378211502",
+        "addr:city": "Porto",
+        "addr:country": "PT",
+        "addr:housenumber": "25;27;29",
+        "addr:street": "Rua de Justino Teixeira",
+        "amenity": "cafe",
+        "name": "Maxados Café",
+        "outdoor_seating": "yes",
+        "smoking": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5864793,
+          41.1492638
+        ]
+      },
+      "id": "node/4378211502"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4378211503",
+        "addr:city": "Porto",
+        "addr:country": "PT",
+        "addr:housenumber": "17",
+        "addr:street": "Rua de Justino Teixeira",
+        "amenity": "cafe",
+        "name": "Metro Café",
+        "official_name": "Petisqueira Central de Campanhã",
+        "opening_hours": "Mo-Sa 00:00-02:00,06:00-24:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5865017,
+          41.1491621
+        ]
+      },
+      "id": "node/4378211503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4378211513",
+        "addr:city": "Porto",
+        "addr:country": "PT",
+        "addr:housenumber": "31",
+        "addr:street": "Rua de Justino Teixeira",
+        "amenity": "cafe",
+        "name": "Segredos de Cristal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5864917,
+          41.1492033
+        ]
+      },
+      "id": "node/4378211513"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4395074577",
+        "amenity": "cafe",
+        "name": "Café Juvenil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5730987,
+          41.163001
+        ]
+      },
+      "id": "node/4395074577"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4395074578",
+        "amenity": "cafe",
+        "name": "Café Pentágono"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.572218,
+          41.1661196
+        ]
+      },
+      "id": "node/4395074578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4395074579",
+        "amenity": "cafe",
+        "name": "Café Xanoca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5725838,
+          41.1633827
+        ]
+      },
+      "id": "node/4395074579"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4395077379",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5732643,
+          41.1636557
+        ]
+      },
+      "id": "node/4395077379"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4411457389",
+        "addr:housenumber": "402",
+        "addr:street": "Rua do Passeio Alegre",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6659713,
+          41.1478797
+        ]
+      },
+      "id": "node/4411457389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4433472410",
+        "amenity": "cafe",
+        "name": "nau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6877773,
+          41.1803528
+        ]
+      },
+      "id": "node/4433472410"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4435694293",
+        "amenity": "cafe",
+        "name": "pompier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6016896,
+          41.1489593
+        ]
+      },
+      "id": "node/4435694293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4470203688",
+        "addr:city": "Porto",
+        "addr:housenumber": "6",
+        "addr:postcode": "4300-197",
+        "addr:street": "Rua de Ferreira Cardoso",
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "level": "0",
+        "name": "Confeitaria Suzi Paula",
+        "source": "survey 2016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5960227,
+          41.146663
+        ]
+      },
+      "id": "node/4470203688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4476748891",
+        "addr:housenumber": "638",
+        "addr:street": "Rua de Santa Catarina",
+        "amenity": "cafe",
+        "cuisine": "portuguese",
+        "internet_access": "wlan",
+        "name": "Christina Dom Alktoque"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6049521,
+          41.1517504
+        ]
+      },
+      "id": "node/4476748891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4506981154",
+        "amenity": "cafe",
+        "name": "Confeitaria Concha d'Ouro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6666737,
+          41.1647924
+        ]
+      },
+      "id": "node/4506981154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4515445613",
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "name": "Casinha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6337459,
+          41.1588225
+        ]
+      },
+      "id": "node/4515445613"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4552715142",
+        "addr:city": "Porto",
+        "addr:housenumber": "15",
+        "addr:street": "Rua Escura",
+        "amenity": "cafe",
+        "name": "Café Bola 13"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6117346,
+          41.1434032
+        ]
+      },
+      "id": "node/4552715142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4552786337",
+        "amenity": "cafe",
+        "name": "Santana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6131976,
+          41.1425357
+        ]
+      },
+      "id": "node/4552786337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4554169792",
+        "amenity": "cafe",
+        "name": "O Bobys"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6142332,
+          41.1422132
+        ]
+      },
+      "id": "node/4554169792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4568643740",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5928427,
+          41.1463837
+        ]
+      },
+      "id": "node/4568643740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4580238002",
+        "amenity": "cafe",
+        "name": "Sem Stress Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.629401,
+          41.181348
+        ]
+      },
+      "id": "node/4580238002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4593193834",
+        "amenity": "cafe",
+        "name": "Café Pedra Bonita"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6570332,
+          41.170086
+        ]
+      },
+      "id": "node/4593193834"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4593193835",
+        "amenity": "cafe",
+        "name": "Café Porto Alegre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6569896,
+          41.1701375
+        ]
+      },
+      "id": "node/4593193835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4593193836",
+        "amenity": "cafe",
+        "name": "Lanchonette Napolitana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6547533,
+          41.1732306
+        ]
+      },
+      "id": "node/4593193836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4608297097",
+        "addr:city": "Porto",
+        "addr:housenumber": "74 - 90",
+        "addr:postcode": "4150-146",
+        "addr:street": "Praça do Bom Sucesso",
+        "amenity": "cafe",
+        "email": "geral@leitariadaquintadopaco.com",
+        "name": "Leitaria da Quinta do Paço",
+        "opening_hours": "Mo-Th, Su 10:00-23:00; Fr-Sa 10:00-0:00",
+        "phone": "+351 226 001 031",
+        "website": "http://www.leitariadaquintadopaco.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6289554,
+          41.1556853
+        ]
+      },
+      "id": "node/4608297097"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4608345594",
+        "addr:housenumber": "1288",
+        "addr:street": "Brito Capelo",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Leitaria da Quinta do Paço",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "website": "http://www.leitariadaquintadopaco.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6893001,
+          41.1763771
+        ]
+      },
+      "id": "node/4608345594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4612394370",
+        "amenity": "cafe",
+        "name": "Sotocal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.602538,
+          41.1428129
+        ]
+      },
+      "id": "node/4612394370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4612413341",
+        "amenity": "cafe",
+        "name": "La Fontaine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6031912,
+          41.1427502
+        ]
+      },
+      "id": "node/4612413341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4612861670",
+        "amenity": "cafe",
+        "name": "Porto Said"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6039488,
+          41.1435805
+        ]
+      },
+      "id": "node/4612861670"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4621518201",
+        "addr:housenumber": "476",
+        "addr:street": "Rua da Firmeza",
+        "amenity": "cafe",
+        "name": "A Loja dos Pastéis de Chaves",
+        "opening_hours": "Mo-Su 7:00-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6057977,
+          41.1510704
+        ]
+      },
+      "id": "node/4621518201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4621674960",
+        "amenity": "cafe",
+        "name": "Batalha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6072832,
+          41.1442937
+        ]
+      },
+      "id": "node/4621674960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4621674961",
+        "amenity": "cafe",
+        "name": "Sagres"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6073234,
+          41.1442281
+        ]
+      },
+      "id": "node/4621674961"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4679272901",
+        "amenity": "cafe",
+        "name": "Cafetaria da Bolsa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6154605,
+          41.1428662
+        ]
+      },
+      "id": "node/4679272901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4697733489",
+        "addr:city": "Porto",
+        "addr:housenumber": "325",
+        "addr:postcode": "4300-096",
+        "addr:street": "Avenida de Camilo",
+        "amenity": "cafe",
+        "contact:facebook": "https://www.facebook.com/mesa325/",
+        "cuisine": "coffee_shop;portuguese",
+        "internet_access": "wlan",
+        "name": "Mesa 325",
+        "opening_hours": "Mo-Fr 08:30-19:00; Sa 09:00-14:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5973505,
+          41.1482063
+        ]
+      },
+      "id": "node/4697733489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4716543450",
+        "addr:housenumber": "30",
+        "addr:street": "Travessa de São Carlos",
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "name": "Café São Carlos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6141141,
+          41.1516156
+        ]
+      },
+      "id": "node/4716543450"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4747845273",
+        "addr:city": "Porto",
+        "addr:housenumber": "1277",
+        "addr:postcode": "4150-173",
+        "addr:street": "Rua do Campo Alegre",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "E-Learning Café Botânico",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6432252,
+          41.1540613
+        ]
+      },
+      "id": "node/4747845273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4750639090",
+        "addr:city": "Porto",
+        "addr:housenumber": "262",
+        "addr:street": "Rua de Eugénio de Castro",
+        "amenity": "cafe",
+        "name": "Confeitaria Chaleira Lda",
+        "opening_hours": "Mo-Fr 7:30-19:00, Sa-Su 08:00-19:00",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6480336,
+          41.163284
+        ]
+      },
+      "id": "node/4750639090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4753773212",
+        "amenity": "cafe",
+        "name": "Café Ramalho Ortigão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5906668,
+          41.1521135
+        ]
+      },
+      "id": "node/4753773212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4754083821",
+        "amenity": "cafe",
+        "name": "Café Sical",
+        "name:pt": "Café Sical"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6126781,
+          41.1478935
+        ]
+      },
+      "id": "node/4754083821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4770900622",
+        "amenity": "cafe",
+        "level": "1",
+        "name": "The Coffee Room"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6124966,
+          41.1456538
+        ]
+      },
+      "id": "node/4770900622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4782664422",
+        "amenity": "cafe",
+        "name": "Mariana",
+        "name:pt": "Mariana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6202435,
+          41.1428434
+        ]
+      },
+      "id": "node/4782664422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4853102921",
+        "addr:housenumber": "291",
+        "addr:postcode": "4050-267",
+        "addr:street": "Rua das Flores",
+        "amenity": "cafe",
+        "cuisine": "portuguese",
+        "name": "Nata Lisboa",
+        "opening_hours": "Mo-Su 10:00-20:00",
+        "website": "https://www.natalisboa.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6117716,
+          41.1450788
+        ]
+      },
+      "id": "node/4853102921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4860839959",
+        "addr:city": "Porto",
+        "addr:housenumber": "985",
+        "addr:postcode": "4000-220",
+        "addr:street": "Rua de Fernandes Tomás",
+        "amenity": "cafe",
+        "contact:mobile": "+351 925618179",
+        "name": "Terrace-Arts Café",
+        "opening_hours": "Mo-Su 08:30-19:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6100464,
+          41.150647
+        ]
+      },
+      "id": "node/4860839959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4920992113",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6104905,
+          41.1458162
+        ]
+      },
+      "id": "node/4920992113"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4998013525",
+        "amenity": "cafe",
+        "name": "Confeitaria Beleza",
+        "name:en": "Confeitaria Beleza",
+        "name:pt": "Confeitaria Beleza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.609955,
+          41.1552423
+        ]
+      },
+      "id": "node/4998013525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4998036425",
+        "amenity": "cafe",
+        "name": "A Africana",
+        "name:en": "A Africana",
+        "name:pt": "A Africana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6098817,
+          41.1571877
+        ]
+      },
+      "id": "node/4998036425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4998358427",
+        "amenity": "cafe",
+        "name": "Café Divino",
+        "name:en": "Cafe Divino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6090408,
+          41.1558302
+        ]
+      },
+      "id": "node/4998358427"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4999524021",
+        "addr:street": "Rua do Carmo",
+        "amenity": "cafe",
+        "name": "Noshi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6167849,
+          41.1470332
+        ]
+      },
+      "id": "node/4999524021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5058029222",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Cafetaria",
+        "name:pt": "Cafetaria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6106802,
+          41.1424742
+        ]
+      },
+      "id": "node/5058029222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5058077109",
+        "addr:city": "Senhora da Hora",
+        "addr:street": "Avenida da Senhora da Hora",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop;sandwich",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Café das Sete Bicas",
+        "opening_hours": "Mo-Su 09:00-23:00",
+        "outdoor_seating": "yes",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6511137,
+          41.1838305
+        ]
+      },
+      "id": "node/5058077109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5060672221",
+        "amenity": "cafe",
+        "name": "Café Panorama",
+        "name:pt": "Café Panorama"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6096616,
+          41.1543109
+        ]
+      },
+      "id": "node/5060672221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5063304824",
+        "amenity": "cafe",
+        "name": "Costa Coffee",
+        "name:en": "Costa Coffee",
+        "name:pt": "Costa Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6147759,
+          41.1459797
+        ]
+      },
+      "id": "node/5063304824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5077646821",
+        "amenity": "cafe",
+        "cuisine": "sandwich",
+        "name": "Soundwich"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6716764,
+          41.1703525
+        ]
+      },
+      "id": "node/5077646821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5077647021",
+        "amenity": "cafe",
+        "ice_cream": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6668831,
+          41.1693463
+        ]
+      },
+      "id": "node/5077647021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5086960169",
+        "amenity": "cafe",
+        "name": "Champ's da Baixa (bistrô)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6072425,
+          41.1503578
+        ]
+      },
+      "id": "node/5086960169"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5102954821",
+        "amenity": "cafe",
+        "cuisine": "portuguese"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6863587,
+          41.1634041
+        ]
+      },
+      "id": "node/5102954821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5120097034",
+        "amenity": "cafe",
+        "name": "Café Tânger"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6584274,
+          41.1610443
+        ]
+      },
+      "id": "node/5120097034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5126178377",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6639312,
+          41.1559685
+        ]
+      },
+      "id": "node/5126178377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5126178925",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6641739,
+          41.1562426
+        ]
+      },
+      "id": "node/5126178925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5159458021",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Copacabana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5828112,
+          41.173878
+        ]
+      },
+      "id": "node/5159458021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5200902407",
+        "amenity": "cafe",
+        "name": "Vagas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6897059,
+          41.1737535
+        ]
+      },
+      "id": "node/5200902407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5200908248",
+        "amenity": "cafe",
+        "name": "Vaguinhas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6906824,
+          41.1752899
+        ]
+      },
+      "id": "node/5200908248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5212812245",
+        "amenity": "cafe",
+        "name": "Castelo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.612158,
+          41.1495786
+        ]
+      },
+      "id": "node/5212812245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5303379521",
+        "amenity": "cafe",
+        "name": "Boulevard Burger House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6227803,
+          41.1479992
+        ]
+      },
+      "id": "node/5303379521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5315469121",
+        "addr:housenumber": "11",
+        "addr:street": "Praça do Marquês de Pombal",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Café Pereira"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6047237,
+          41.1603615
+        ]
+      },
+      "id": "node/5315469121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5335626087",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6302799,
+          41.1815893
+        ]
+      },
+      "id": "node/5335626087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5335626088",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6301634,
+          41.181326
+        ]
+      },
+      "id": "node/5335626088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5335626092",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6306018,
+          41.1813571
+        ]
+      },
+      "id": "node/5335626092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5419777923",
+        "amenity": "cafe",
+        "name": "The Traveller Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6056201,
+          41.1468317
+        ]
+      },
+      "id": "node/5419777923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5494274789",
+        "amenity": "cafe",
+        "name": "Cafetaria Grão Fino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.626648,
+          41.1573613
+        ]
+      },
+      "id": "node/5494274789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5534143436",
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Café Grupo Desportivo E Cultural da Afurada",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6420485,
+          41.1427462
+        ]
+      },
+      "id": "node/5534143436"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5534742248",
+        "addr:housenumber": "76",
+        "addr:street": "Avenida da Boavista",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "BUSCAFE",
+        "name": "Bus Café",
+        "outdoor_seating": "no",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6245922,
+          41.1572927
+        ]
+      },
+      "id": "node/5534742248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5536337335",
+        "amenity": "cafe",
+        "name": "Cafetaria Dom Caseiro",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-17:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6181131,
+          41.1560083
+        ]
+      },
+      "id": "node/5536337335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5630271821",
+        "amenity": "cafe",
+        "name": "cerca velha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6129957,
+          41.1427859
+        ]
+      },
+      "id": "node/5630271821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5659320124",
+        "amenity": "cafe",
+        "name": "Maintegaria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6072312,
+          41.1487367
+        ]
+      },
+      "id": "node/5659320124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5659320125",
+        "amenity": "cafe",
+        "name": "Maintegaria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6069582,
+          41.148574
+        ]
+      },
+      "id": "node/5659320125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5679892922",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Taberna Esta-Se Bem",
+        "name:en": "Taberna Esta-Se Bem",
+        "name:pt": "Taberna Esta-Se Bem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6139277,
+          41.140605
+        ]
+      },
+      "id": "node/5679892922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5692925696",
+        "addr:city": "Porto",
+        "addr:housenumber": "118",
+        "addr:postcode": "4200-511",
+        "addr:street": "Rua do Vale Formoso",
+        "amenity": "cafe",
+        "name": "Pau de Canela",
+        "phone": "22 327 7494",
+        "shop": "fine grocery store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6114761,
+          41.1664658
+        ]
+      },
+      "id": "node/5692925696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5709169723",
+        "amenity": "cafe",
+        "name": "Confeitaria e Pastelaria Moura",
+        "opening_hours": "Mo-Su 07:00-19:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6095837,
+          41.1483654
+        ]
+      },
+      "id": "node/5709169723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5862502987",
+        "addr:housenumber": "107",
+        "addr:street": "Travessa de Santo Isidro",
+        "amenity": "cafe",
+        "name": "Café Segredo",
+        "opening_hours": "Mo-Su 10:00-14:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6004851,
+          41.1590861
+        ]
+      },
+      "id": "node/5862502987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5894318485",
+        "addr:housenumber": "95",
+        "addr:street": "Avenida de Rodrigues de Freitas",
+        "amenity": "cafe",
+        "fixme": "averiguar localização",
+        "name": "Porto dos Gatos",
+        "opening_hours": "Mo-Fr 00:00-24:00; Sa-Su 13:00-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5976521,
+          41.1458557
+        ]
+      },
+      "id": "node/5894318485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5913785785",
+        "addr:housenumber": "24",
+        "addr:street": "Largo de São Domingos",
+        "amenity": "cafe",
+        "name": "Cafetaria da Bolsa",
+        "phone": "+351 917 021 880"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6153888,
+          41.1427132
+        ]
+      },
+      "id": "node/5913785785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6058490886",
+        "amenity": "cafe",
+        "cuisine": "portuguese;coffee_shop;breakfast;tea",
+        "internet_access": "wlan",
+        "name": "Óbio",
+        "website": "http://Facebook.com/Obio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6031581,
+          41.1464247
+        ]
+      },
+      "id": "node/6058490886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6077105387",
+        "addr:housenumber": "29",
+        "addr:postcode": "4000-334",
+        "addr:street": "Rua do Morgado de Mateus",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name": "Combi Coffee Co.",
+        "opening_hours": "Mo-Su 09:00-19:00",
+        "website": "http://combicoffee.pt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.601384,
+          41.1466593
+        ]
+      },
+      "id": "node/6077105387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6082329784",
+        "addr:housenumber": "453",
+        "addr:street": "Rua da Boavista",
+        "amenity": "cafe",
+        "name": "Coqueluche",
+        "opening_hours": "Mo-Fr 12:00-02:00; Sa-Su 14:00-02:00",
+        "smoking": "separated"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6186245,
+          41.1560927
+        ]
+      },
+      "id": "node/6082329784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6082437718",
+        "amenity": "cafe",
+        "name": "Cafetaria Doce Rio",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6194256,
+          41.1561769
+        ]
+      },
+      "id": "node/6082437718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6142335289",
+        "addr:housenumber": "33",
+        "addr:street": "Passeio de São Lázaro",
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "name": "Jeremias",
+        "opening_hours": "Mo, We, Th 12:00-23:00; Fr, Sa 12:00-00:00; Su 12:00-16:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6027501,
+          41.1463018
+        ]
+      },
+      "id": "node/6142335289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6326105486",
+        "addr:housenumber": "68/72",
+        "addr:postcode": "4050-597",
+        "addr:street": "Rua das Taipas",
+        "amenity": "cafe",
+        "cuisine": "vegan;vegetarian;breakfast;coffee_shop;sandwich",
+        "internet_access": "wlan",
+        "name": "Hungry Biker",
+        "opening_hours": "Mo-Su 09:00-16:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6173244,
+          41.1429436
+        ]
+      },
+      "id": "node/6326105486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6351251842",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6134779,
+          41.1554463
+        ]
+      },
+      "id": "node/6351251842"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6368248975",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6047666,
+          41.1765332
+        ]
+      },
+      "id": "node/6368248975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6374265481",
+        "addr:city": "Porto",
+        "addr:housenumber": "73",
+        "addr:postcode": "4000-545",
+        "addr:street": "Avenida Vímara Peres",
+        "amenity": "cafe",
+        "description": "nota número 75 também é",
+        "name": "Mais um Cafetaria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.610377,
+          41.1429864
+        ]
+      },
+      "id": "node/6374265481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6382086827",
+        "amenity": "cafe",
+        "facebook": "https://www.facebook.com/pages/category/Portuguese-Restaurant/Adega-T%C3%BAnel-223701097797944/",
+        "name": "Adega Túnel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6504435,
+          41.1553931
+        ]
+      },
+      "id": "node/6382086827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6390409786",
+        "addr:housenumber": "54",
+        "addr:postcode": "4050-386",
+        "addr:street": "Rua de Miragaia",
+        "amenity": "cafe",
+        "cuisine": "american;burger;vegan",
+        "internet_access": "wlan",
+        "name": "Backson’s Fine Burgers and Mussels",
+        "operator": "Русские 🇷🇺",
+        "website": "https://m.facebook.com/backson.pt/?ref=social_wifi&wificheckin=1&gw_id=1586575878043696&redirect_url=http%3A%2F%2F192.168.2.1%3A8083%2Ffbwifi%2Fcontinue.asp%3Fc%3DEii4d64GsowyZQNDCw_2DA&redirect_mac=HPyIaEzO8Wvfk7bF5XdRtp6rcJqjdRQqFbdZJgcEx74"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6197016,
+          41.1424271
+        ]
+      },
+      "id": "node/6390409786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6398489858",
+        "amenity": "cafe",
+        "name": "Seara Dourada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5940715,
+          41.1507445
+        ]
+      },
+      "id": "node/6398489858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6398504579",
+        "addr:city": "Porto",
+        "addr:housenumber": "912",
+        "addr:postcode": "4150-154",
+        "addr:street": "Rua de Gondarém",
+        "amenity": "cafe",
+        "name": "A Xícara - Casa de Chá"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6831254,
+          41.1604359
+        ]
+      },
+      "id": "node/6398504579"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6406276685",
+        "addr:housenumber": "122",
+        "addr:street": "Rua de José Falcão",
+        "amenity": "cafe",
+        "cuisine": "deli;breakfast;coffee_shop",
+        "internet_access": "wlan",
+        "name": "Fábrica",
+        "name:en": "Fabrica",
+        "website": "https://www.fabricacoffeeroasters.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.614159,
+          41.1489203
+        ]
+      },
+      "id": "node/6406276685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6438144186",
+        "amenity": "cafe",
+        "cuisine": "portuguese",
+        "internet_access": "wlan",
+        "name": "C'alma speciality coffee room",
+        "name:en": "Calma Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6079691,
+          41.1471419
+        ]
+      },
+      "id": "node/6438144186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6456097872",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Café Amarantino"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5872845,
+          41.1472138
+        ]
+      },
+      "id": "node/6456097872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6464804385",
+        "amenity": "cafe",
+        "name": "Bicafé"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6126164,
+          41.1444139
+        ]
+      },
+      "id": "node/6464804385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6499370042",
+        "amenity": "cafe",
+        "name": "P&T Caffe 2",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.649176,
+          41.1664118
+        ]
+      },
+      "id": "node/6499370042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6528254885",
+        "addr:housenumber": "293",
+        "addr:street": "Avenida de Rodrigues de Freitas",
+        "amenity": "cafe",
+        "name": "The Happy Neat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6008225,
+          41.1456321
+        ]
+      },
+      "id": "node/6528254885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6550894058",
+        "amenity": "cafe",
+        "name": "Monumental Café"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6114462,
+          41.1484162
+        ]
+      },
+      "id": "node/6550894058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6550894119",
+        "addr:housenumber": "307",
+        "addr:street": "Praça General Humberto Delgado",
+        "amenity": "cafe",
+        "name": "Portus Sabor - Pastelaria e Restaurante",
+        "wifi": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6114012,
+          41.1497244
+        ]
+      },
+      "id": "node/6550894119"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6550894120",
+        "addr:housenumber": "291",
+        "amenity": "cafe",
+        "name": "Cibercafé"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6114298,
+          41.1496
+        ]
+      },
+      "id": "node/6550894120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6553344285",
+        "amenity": "cafe",
+        "name": "Confeitaria Ar de Villa",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6730803,
+          41.1739754
+        ]
+      },
+      "id": "node/6553344285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6588870292",
+        "addr:housenumber": "372",
+        "addr:postcode": "4000-099",
+        "addr:street": "Rua da Alegria",
+        "amenity": "cafe",
+        "cuisine": "portuguese",
+        "internet_access": "wlan",
+        "name": "Café M.",
+        "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-15:00",
+        "phone": "+351221121082"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6035588,
+          41.1530062
+        ]
+      },
+      "id": "node/6588870292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6621069114",
+        "amenity": "cafe",
+        "name": "Café Tony"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6113001,
+          41.1408013
+        ]
+      },
+      "id": "node/6621069114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6647823952",
+        "amenity": "cafe",
+        "name": "Confeitaria Vitória"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6102027,
+          41.1436784
+        ]
+      },
+      "id": "node/6647823952"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6647824284",
+        "addr:housenumber": "488",
+        "addr:street": "Rua de Santa Catarina",
+        "amenity": "cafe",
+        "name": "La Andaluza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6054606,
+          41.1504575
+        ]
+      },
+      "id": "node/6647824284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6647824298",
+        "addr:city": "Porto",
+        "addr:housenumber": "452",
+        "addr:street": "Rua de Santa Catarina",
+        "alt_name": "Café Santos Snack-Bar; Santos Cafetaria",
+        "amenity": "cafe",
+        "name": "Santos",
+        "outdoor_seating": "yes",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6055739,
+          41.1501407
+        ]
+      },
+      "id": "node/6647824298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6652110076",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Café Casa da Música",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6306995,
+          41.158933
+        ]
+      },
+      "id": "node/6652110076"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6659054817",
+        "addr:housenumber": "294",
+        "addr:street": "Rua do Almada",
+        "amenity": "cafe",
+        "cuisine": "portuguese",
+        "name": "enaltece sabor",
+        "opening_hours": "Mo-Sa 11:00-23:00; Su 16:00-23:00",
+        "website": "https://m.facebook.com/enaltecesaborr/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6120551,
+          41.1490068
+        ]
+      },
+      "id": "node/6659054817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6661619874",
+        "amenity": "cafe",
+        "name": "Cremosi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6165557,
+          41.1469989
+        ]
+      },
+      "id": "node/6661619874"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6695498698",
+        "addr:housenumber": "454",
+        "amenity": "cafe",
+        "name": "Café Santos Snack Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6055836,
+          41.1500969
+        ]
+      },
+      "id": "node/6695498698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6820836786",
+        "addr:housenumber": "417",
+        "addr:street": "Rua Santo Ildefonso",
+        "amenity": "cafe",
+        "name": "Ruial Francesinhas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6005503,
+          41.1476035
+        ]
+      },
+      "id": "node/6820836786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6830772095",
+        "amenity": "cafe",
+        "name": "Confeitaria Botanica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6420813,
+          41.1540611
+        ]
+      },
+      "id": "node/6830772095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6830822588",
+        "amenity": "cafe",
+        "name": "Confeitaria Botanica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.641919,
+          41.1537921
+        ]
+      },
+      "id": "node/6830822588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6883885703",
+        "amenity": "cafe",
+        "name": "Sensum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6503956,
+          41.1480941
+        ]
+      },
+      "id": "node/6883885703"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6918217363",
+        "amenity": "cafe",
+        "name": "INOX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6426721,
+          41.1652747
+        ]
+      },
+      "id": "node/6918217363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6966406051",
+        "addr:street": "Rua da fábrica",
+        "amenity": "cafe",
+        "name": "Vogue café",
+        "opening_hours": "Mo-Th, Su 12:00-01:00; Fr, Sa 12:00-02:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6132455,
+          41.1475728
+        ]
+      },
+      "id": "node/6966406051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7007739453",
+        "amenity": "cafe",
+        "name": "Café Boavista"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6358529,
+          41.1597476
+        ]
+      },
+      "id": "node/7007739453"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7007739455",
+        "amenity": "cafe",
+        "name": "Café Vanzeleres"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6328584,
+          41.1604836
+        ]
+      },
+      "id": "node/7007739455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7041626489",
+        "addr:housenumber": "110",
+        "addr:street": "Rua das Oliveiras",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name:en": "Lazy Breakfast club",
+        "opening_hours": "Mo-Su 09:00-19:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6148474,
+          41.1495746
+        ]
+      },
+      "id": "node/7041626489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7056476431",
+        "amenity": "cafe",
+        "name": "la bombarde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6793497,
+          41.1553131
+        ]
+      },
+      "id": "node/7056476431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7056758490",
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6416773,
+          41.1844499
+        ]
+      },
+      "id": "node/7056758490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7056975450",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6654526,
+          41.1593608
+        ]
+      },
+      "id": "node/7056975450"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7058201574",
+        "amenity": "cafe",
+        "name": "café stop",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6737204,
+          41.1725558
+        ]
+      },
+      "id": "node/7058201574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7058526770",
+        "addr:city": "Porto",
+        "addr:housenumber": "54",
+        "addr:postcode": "4100-079",
+        "addr:street": "Avenida do Doutor Antunes Guimarães",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop;regional",
+        "internet_access": "no",
+        "name": "Concha Douro",
+        "opening_hours": "08:00-20:00",
+        "outdoor_seating": "yes",
+        "phone": "22 618 4105",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6623185,
+          41.1640693
+        ]
+      },
+      "id": "node/7058526770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7061316218",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name": "Café São João da foz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6640936,
+          41.1562052
+        ]
+      },
+      "id": "node/7061316218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7064447271",
+        "addr:city": "Paredão Porto",
+        "amenity": "cafe",
+        "cuisine": "crepe;burger",
+        "name": "Nova Copa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6834202,
+          41.1591868
+        ]
+      },
+      "id": "node/7064447271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7067372774",
+        "amenity": "cafe",
+        "name": "padaria de baldaia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.670116,
+          41.1578246
+        ]
+      },
+      "id": "node/7067372774"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7070304098",
+        "amenity": "cafe",
+        "name": "O Docinho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6275645,
+          41.1752975
+        ]
+      },
+      "id": "node/7070304098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7070658916",
+        "amenity": "cafe",
+        "name": "Café Pinto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6812217,
+          41.1575042
+        ]
+      },
+      "id": "node/7070658916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7124277788",
+        "addr:housenumber": "34-A",
+        "addr:postcode": "4000-250",
+        "addr:street": "Rua Formosa",
+        "amenity": "cafe",
+        "cuisine": "vegan",
+        "internet_access": "wlan",
+        "name": "Vegana by Tentúgal",
+        "opening_hours": "Mo, We-Fr 10:00-20:00; Sa 10:00-19:00; Su 11:30-19:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6024192,
+          41.1473062
+        ]
+      },
+      "id": "node/7124277788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7157144893",
+        "amenity": "cafe",
+        "name": "Spot luggage and lounge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6102821,
+          41.15227
+        ]
+      },
+      "id": "node/7157144893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7157145487",
+        "amenity": "cafe",
+        "name": "Casa pinto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5937698,
+          41.1577333
+        ]
+      },
+      "id": "node/7157145487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7157145489",
+        "amenity": "cafe",
+        "name:en": "Cookery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6122022,
+          41.1491153
+        ]
+      },
+      "id": "node/7157145489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7157146285",
+        "amenity": "cafe",
+        "name": "Salguerista"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6052822,
+          41.1549236
+        ]
+      },
+      "id": "node/7157146285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7192060194",
+        "addr:city": "Porto",
+        "addr:housenumber": "811",
+        "addr:street": "Rua do Barão de Forrester",
+        "addr:unit": "Loja 7",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "internet_access:ssid": "NOS-BAF0",
+        "name": "Gosto Fidalgo",
+        "opening_hours": "Mo-Sa 07:00-20:00",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6201736,
+          41.1587809
+        ]
+      },
+      "id": "node/7192060194"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7404745125",
+        "addr:street": "Rua de Damião de Góis",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Flor do Damião",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6161725,
+          41.1624612
+        ]
+      },
+      "id": "node/7404745125"
+    }
+  ]
+}

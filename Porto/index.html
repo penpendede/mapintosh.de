@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OSM Map of Porto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/leaflet.css" />
+    <link rel="stylesheet" href="../css/Control.FullScreen.css" />
+    <script src="../js/leaflet.js"></script>
+    <script src="../js/Control.FullScreen.js"></script>
+    <style>
+      body {
+        bottom: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .title {
+        font-family: sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        height: 48px;
+        line-height: 48px;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+      }
+      .content {
+        height: calc( 100% - 48px );
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="title">OSM Map of Porto</div>
+    <div class="content" id="mapid"></div>
+    <script>
+      var map
+      function addMap() {
+        if (remainingLoads) {
+          window.setTimeout(addMap, 100)
+        } else {
+          map = L.map('mapid', {
+            fullscreenControl: true,
+            fullscreenControlOptions: {
+              position: 'topleft'
+            },
+            layers: [baseMaps['osm'], overlayMaps['City Limits']]
+          }).fitBounds([
+            [41.138351, -8.691294],
+            [41.185935, -8.552009]
+          ])
+          L.control.layers(baseMaps, overlayMaps).addTo(map)
+        }
+      }
+      var baseMaps = {
+        'osm': L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          maxZoom: 19,
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }),
+        'Esri_WorldTopoMap': L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+	  attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community'
+        })
+      }
+      var fileNames = ['bars', 'biergartens', 'cafes', 'nightclubs', 'pubs']
+      var remainingLoads = fileNames.length + 1
+      var overlayMaps = { }
+
+      fetch('geoJSON/porto.geojson')
+        .then(response => response.json())
+	.then(geoJSON => {
+          overlayMaps['City Limits'] = L.geoJSON(geoJSON)
+          remainingLoads--
+        })
+
+      var markers = {}
+      fileNames.forEach(fileName =>
+        markers[fileName] = L.icon({
+          iconSize: [24, 37],
+          iconAnchor: [12, 37],
+          popupAnchor: [0, 0],
+          iconUrl: './images/marker-' + fileName + '.png'
+        })
+      )
+
+      fileNames.forEach(fileName =>
+        fetch('geoJSON/' + fileName + '.geojson')
+          .then(response => response.json())
+	  .then(geoJSON => {
+            overlayMaps[fileName] = L.geoJSON(geoJSON, {
+              pointToLayer: (feature, latlng) => L.marker(latlng, {icon: markers[fileName]}),
+              onEachFeature: (feature, layer) => {
+                layer.bindPopup('<h1>' + feature.properties.amenity.toUpperCase() + '</h1><h2>' + feature.properties.name + '</h2>')
+              }
+            })
+            remainingLoads--
+	  })
+      )
+
+      addMap()
+
+    </script>
+  </body>
+</html>
+

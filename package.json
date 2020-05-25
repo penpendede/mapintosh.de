@@ -1,0 +1,24 @@
+{
+  "name": "mapintosh.de",
+  "version": "1.0.0",
+  "description": "mapintosh.de source",
+  "main": "index.html",
+  "dependencies": {
+    "leaflet": "^1.6.0",
+    "leaflet.fullscreen": "^1.6.0",
+    "list.js": "^1.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "penpendede.hopto.git/OSM/mapintosh.de"
+  },
+  "keywords": [
+    "maps"
+  ],
+  "author": "Josef Schugt <penpendede@mail.ru>",
+  "license": "CC-BY-4.0"
+}

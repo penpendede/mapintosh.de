@@ -1,0 +1,1886 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2020-05-18T20:43:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1291504388",
+        "amenity": "bar",
+        "name": "Café Velazquez"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5917918,
+          41.1631237
+        ]
+      },
+      "id": "node/1291504388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1739874844",
+        "amenity": "bar",
+        "name": "Black Coffee",
+        "source": "neighbourhood knowledgment"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6879038,
+          41.1741058
+        ]
+      },
+      "id": "node/1739874844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1838425848",
+        "amenity": "bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5866426,
+          41.1784881
+        ]
+      },
+      "id": "node/1838425848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2196398256",
+        "amenity": "bar",
+        "name": "Portinho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6140618,
+          41.1475122
+        ]
+      },
+      "id": "node/2196398256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2204446906",
+        "amenity": "bar",
+        "name": "Ryan's Irish Pub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6139153,
+          41.1415304
+        ]
+      },
+      "id": "node/2204446906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2206008224",
+        "amenity": "bar",
+        "fixme": "confirmar se existe do lado da Viela do Anjo",
+        "name": "Espaço Moçambique"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6123874,
+          41.1437657
+        ]
+      },
+      "id": "node/2206008224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2206349282",
+        "amenity": "bar",
+        "name": "Mercadores"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6128987,
+          41.1411325
+        ]
+      },
+      "id": "node/2206349282"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2206402533",
+        "amenity": "bar",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Zénite"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.61284,
+          41.1407663
+        ]
+      },
+      "id": "node/2206402533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2206428130",
+        "amenity": "bar",
+        "name": "Meeting Point",
+        "name:tr": "Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.613465,
+          41.1404634
+        ]
+      },
+      "id": "node/2206428130"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2206428140",
+        "amenity": "bar",
+        "name": "Está-se Bem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6136338,
+          41.1405436
+        ]
+      },
+      "id": "node/2206428140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2206428145",
+        "amenity": "bar",
+        "name": "Encontro dos Amigos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6140656,
+          41.1406264
+        ]
+      },
+      "id": "node/2206428145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2207290258",
+        "amenity": "bar",
+        "name": "Aparte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6141426,
+          41.1435311
+        ]
+      },
+      "id": "node/2207290258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2207586610",
+        "amenity": "bar",
+        "name": "Tango"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6158499,
+          41.1422899
+        ]
+      },
+      "id": "node/2207586610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2232562405",
+        "addr:city": "Porto",
+        "addr:country": "PT",
+        "addr:housenumber": "178",
+        "addr:postcode": "4000-385",
+        "addr:street": "Rua de Passos Manuel",
+        "amenity": "bar",
+        "contact:email": "mail@maushabitos.com",
+        "contact:fax": "+351 222 000134",
+        "contact:phone": "+351 222 087268",
+        "contact:website": "www.maushabitos.com",
+        "name": "Maus Hábitos",
+        "opening_hours": "Tu-Th 12:00-15:00, 20:00-23:00; Fr-Sa 12:00-15:00, 20:00-00:00; Su 12:00-15:00, 20:00-23:00",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.605811,
+          41.1466701
+        ]
+      },
+      "id": "node/2232562405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2245250786",
+        "amenity": "bar",
+        "name": "Saloon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6110641,
+          41.1408699
+        ]
+      },
+      "id": "node/2245250786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2245250791",
+        "amenity": "bar",
+        "name": "Be Club"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6136698,
+          41.1420101
+        ]
+      },
+      "id": "node/2245250791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2353815520",
+        "amenity": "bar",
+        "name": "O Meu Mercedes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6115107,
+          41.140903
+        ]
+      },
+      "id": "node/2353815520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2377958909",
+        "addr:housenumber": "26",
+        "addr:street": "Rua da Alegria",
+        "amenity": "bar",
+        "internet_access": "wlan",
+        "name": "Rochas",
+        "name:pt": "Rocha's Cafe Bar",
+        "opening_hours": "Tu-Th 08:30-00:00; Fr-Sa 08:30-02:00; Su 09:00-23:30",
+        "phone": "+351918071256"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.603747,
+          41.1469946
+        ]
+      },
+      "id": "node/2377958909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2392227593",
+        "addr:city": "Porto",
+        "addr:housenumber": "123",
+        "addr:postcode": "4200-393",
+        "addr:street": "R. Dr. Manuel Pereira da Silva",
+        "amenity": "bar",
+        "name": "Lusco Fusco",
+        "opening_hours": "10:00-02:00",
+        "phone": "938 844 393"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6030403,
+          41.1735459
+        ]
+      },
+      "id": "node/2392227593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2413523268",
+        "amenity": "bar",
+        "name": "Capela Incomum",
+        "natural": "tree"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6176544,
+          41.1491892
+        ]
+      },
+      "id": "node/2413523268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2514546767",
+        "addr:housenumber": "23",
+        "addr:street": "Rua de Monchique",
+        "amenity": "bar",
+        "name": "Papavinhos",
+        "name:ru": "Ресторан Papavinhos",
+        "opening_hours": "Tu-Su 12:00-15:00, 19:00-23:00",
+        "phone": "+351222000204"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6244473,
+          41.1446578
+        ]
+      },
+      "id": "node/2514546767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2530784043",
+        "amenity": "bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5544437,
+          41.1421037
+        ]
+      },
+      "id": "node/2530784043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2616002805",
+        "amenity": "bar",
+        "name": "More Club"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.614228,
+          41.1472335
+        ]
+      },
+      "id": "node/2616002805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2684357431",
+        "amenity": "bar",
+        "name": "Porto com Arte",
+        "wifi": "free"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.612091,
+          41.1457238
+        ]
+      },
+      "id": "node/2684357431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2730057476",
+        "amenity": "bar",
+        "name": "Plano B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6138661,
+          41.1467243
+        ]
+      },
+      "id": "node/2730057476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2730071870",
+        "amenity": "bar",
+        "name": "Bubbles"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6135389,
+          41.1472555
+        ]
+      },
+      "id": "node/2730071870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2937847568",
+        "amenity": "bar",
+        "name": "Twiggy Piano Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6074601,
+          41.152029
+        ]
+      },
+      "id": "node/2937847568"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3361747544",
+        "addr:housenumber": "1121",
+        "addr:street": "Rua do Bonjardim",
+        "amenity": "bar",
+        "description": "Gay bar",
+        "gay": "yes",
+        "lgbtq": "primary",
+        "name": "Pride Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6055823,
+          41.1601468
+        ]
+      },
+      "id": "node/3361747544"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3361765083",
+        "addr:housenumber": "836",
+        "addr:street": "Rua do Bonjardim",
+        "amenity": "bar",
+        "name": "Syndikato Bar",
+        "opening_hours": "We 23:00-04:00; Fr-Su 23:00-04:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6076516,
+          41.1545846
+        ]
+      },
+      "id": "node/3361765083"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3544828622",
+        "amenity": "bar",
+        "internet_access": "wlan",
+        "name": "Café Candelabro",
+        "website": "https://www.cafecandelabro.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6131721,
+          41.1499342
+        ]
+      },
+      "id": "node/3544828622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3544828623",
+        "amenity": "bar",
+        "name": "Champanheria da Baixa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6130526,
+          41.1498125
+        ]
+      },
+      "id": "node/3544828623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3584607643",
+        "addr:city": "Porto",
+        "addr:country": "PT",
+        "addr:housenumber": "83",
+        "addr:postcode": "4050-448",
+        "addr:street": "Rua das Oliveiras",
+        "amenity": "bar",
+        "name": "Pherrugem Bar",
+        "opening_hours": "Mo-Th 21:30-04:00; Fr-Sa 22:00-04:00; Su 21:30-04:00",
+        "phone": "+351 919 505696"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6148846,
+          41.1498399
+        ]
+      },
+      "id": "node/3584607643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3866163193",
+        "amenity": "bar",
+        "name": "Bazaar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6294727,
+          41.1454983
+        ]
+      },
+      "id": "node/3866163193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3958603541",
+        "addr:city": "Porto",
+        "addr:housenumber": "22",
+        "addr:postcode": "4050-199",
+        "addr:street": "Rua de Cima do Muro",
+        "amenity": "bar",
+        "name": "Muralha da Barca",
+        "nif:pt": "501487190",
+        "operator": "Mario Teixeira Melo, Lda",
+        "phone": "+351 222051746",
+        "source": "local knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6115684,
+          41.1407749
+        ]
+      },
+      "id": "node/3958603541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4241366991",
+        "addr:city": "Porto",
+        "addr:housenumber": "598",
+        "addr:postcode": "4000-037",
+        "addr:street": "Rua da Alegria",
+        "amenity": "bar",
+        "ele": "200 m",
+        "ele:note": "metros acima do nível do mar",
+        "name": "Miradouro - Portucale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6022932,
+          41.1556608
+        ]
+      },
+      "id": "node/4241366991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4264275990",
+        "amenity": "bar",
+        "name": "bar plage voiture"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6762174,
+          41.1495795
+        ]
+      },
+      "id": "node/4264275990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4309617589",
+        "amenity": "bar",
+        "name": "Destilaria "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6139517,
+          41.1473161
+        ]
+      },
+      "id": "node/4309617589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4311036190",
+        "addr:housenumber": "124",
+        "addr:street": "Rua dos Mercadores",
+        "amenity": "bar",
+        "cuisine": "diner;african;coffee_shop",
+        "internet_access": "wlan",
+        "name": "African Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6133125,
+          41.1420947
+        ]
+      },
+      "id": "node/4311036190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4313451590",
+        "amenity": "bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6212685,
+          41.1560768
+        ]
+      },
+      "id": "node/4313451590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4378105291",
+        "amenity": "bar",
+        "name": "Marina do Freixo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5774498,
+          41.1432861
+        ]
+      },
+      "id": "node/4378105291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4378211497",
+        "addr:city": "Porto",
+        "addr:country": "PT",
+        "addr:housenumber": "13",
+        "addr:street": "Travessa de Miraflor",
+        "amenity": "bar",
+        "name": "Cervejaria Flor da Estação"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5868343,
+          41.148789
+        ]
+      },
+      "id": "node/4378211497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4464733890",
+        "addr:street": "Rua da Vilarinha",
+        "amenity": "bar",
+        "cuisine": "burger;chicken;grill;coffee_shop",
+        "internet_access": "wlan",
+        "name": "Fecundity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6668915,
+          41.1675066
+        ]
+      },
+      "id": "node/4464733890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4552745887",
+        "addr:housenumber": "13",
+        "addr:postcode": "4050-622",
+        "addr:street": "Escadas das Verdades",
+        "amenity": "bar",
+        "name": "Arco das Verdades",
+        "opening_hours": "Tu-We, Su 09:00-20:00;\nTh 09:00-19:30;\nFr-Sa 09:00-22:00",
+        "phone": "+351220172663"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6110786,
+          41.1415106
+        ]
+      },
+      "id": "node/4552745887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4552783883",
+        "addr:city": "Porto",
+        "addr:housenumber": "65",
+        "addr:street": "Rua da Bainharia",
+        "amenity": "bar",
+        "name": "Adega Gandarela"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6130595,
+          41.1431911
+        ]
+      },
+      "id": "node/4552783883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4554071954",
+        "amenity": "bar",
+        "name": "Trilogia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6134642,
+          41.1416372
+        ]
+      },
+      "id": "node/4554071954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4554438625",
+        "addr:street": "Largo Diocleciano Monteiro",
+        "amenity": "bar",
+        "name": "Ponte Pêncil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6098921,
+          41.1405669
+        ]
+      },
+      "id": "node/4554438625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4556177697",
+        "addr:housenumber": "202",
+        "addr:street": "Avenida Gustavo Eiffel",
+        "amenity": "bar",
+        "name": "À Bolina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6078322,
+          41.141381
+        ]
+      },
+      "id": "node/4556177697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4560809090",
+        "addr:housenumber": "120",
+        "addr:postcode": "4050-031",
+        "addr:street": "Rua do Almada",
+        "amenity": "bar",
+        "name": "Hard Rock Café"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6120912,
+          41.1471894
+        ]
+      },
+      "id": "node/4560809090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4606935253",
+        "addr:housenumber": "223",
+        "addr:postcode": "4000-112",
+        "addr:street": "Rua do Bolhão",
+        "amenity": "bar",
+        "cuisine": "portuguese",
+        "name": "17° Bar",
+        "opening_hours": "Mo-Su 12:00-02:00",
+        "outdoor_seating": "veranda",
+        "smoking": "outside",
+        "takeaway": "no",
+        "website": "https://decimosetimo.pt/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6072214,
+          41.1521938
+        ]
+      },
+      "id": "node/4606935253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4612450024",
+        "amenity": "bar",
+        "name": "Retiro do Fado"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6031014,
+          41.1432007
+        ]
+      },
+      "id": "node/4612450024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4664839590",
+        "addr:housenumber": "1a",
+        "addr:postcode": "4050-592",
+        "addr:street": "Rua de Sobre-o-Douro",
+        "amenity": "bar",
+        "name": "Bar Miradouro Ignez",
+        "opening_hours": "Su 10:00-21:00; Mo-Th 10:00-12:00; Fr-Sa 10:00-02:00",
+        "phone": "00351918429753"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6255615,
+          41.1453247
+        ]
+      },
+      "id": "node/4664839590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4675765487",
+        "amenity": "bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5994812,
+          41.1834818
+        ]
+      },
+      "id": "node/4675765487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4689677796",
+        "addr:housenumber": "111",
+        "addr:postcode": "4050-080",
+        "addr:street": "Cais da Estiva",
+        "amenity": "bar",
+        "cuisine": "portuguese",
+        "name": "Wine Quay Bar",
+        "name:en": "Wine Quay Bar",
+        "opening_hours": "Mo-Sa 16:00-23:00",
+        "phone": "+351222080119",
+        "website": "http://winequaybar.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6141885,
+          41.1403508
+        ]
+      },
+      "id": "node/4689677796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4716533943",
+        "addr:city": "Porto",
+        "addr:housenumber": "162",
+        "addr:postcode": "4050-161",
+        "addr:street": "Rua das Carmelitas",
+        "amenity": "bar",
+        "name": "Era uma vez no Porto",
+        "name:en": "Era Uma Vez no Porto",
+        "name:pt": "Era Uma Vez no Porto",
+        "opening_hours": "Mo-We, Sa 17:00-02:00;\nTh-Fr 17:00-04:00;\nSu 21:30-02:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6149884,
+          41.146919
+        ]
+      },
+      "id": "node/4716533943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4783008134",
+        "amenity": "bar",
+        "name": "Gabinete S.Domingos",
+        "name:pt": "Gabinete S.Domingos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6148868,
+          41.1431795
+        ]
+      },
+      "id": "node/4783008134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4795833221",
+        "addr:housenumber": "256",
+        "addr:street": "Rua de Cedofeita",
+        "amenity": "bar",
+        "name": "Catraio",
+        "name:en": "Catraio Real Ale Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6171551,
+          41.1510493
+        ]
+      },
+      "id": "node/4795833221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4853102623",
+        "addr:housenumber": "101",
+        "addr:street": "Rua da Alegria",
+        "amenity": "bar",
+        "name": "Letraria - Craft Beer Garden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6040806,
+          41.1484543
+        ]
+      },
+      "id": "node/4853102623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4921117323",
+        "addr:street": "Rua de Passos Manuel",
+        "amenity": "bar",
+        "name": "Café Santiago",
+        "name:pt": "Café Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6047076,
+          41.146491
+        ]
+      },
+      "id": "node/4921117323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4924938726",
+        "amenity": "bar",
+        "name": "Caves São João"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6083377,
+          41.144895
+        ]
+      },
+      "id": "node/4924938726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4924964897",
+        "amenity": "bar",
+        "name": "Alfredo Portista",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6082406,
+          41.1449576
+        ]
+      },
+      "id": "node/4924964897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4924964898",
+        "amenity": "bar",
+        "name": "Convívio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6081232,
+          41.1450081
+        ]
+      },
+      "id": "node/4924964898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4925167282",
+        "amenity": "bar",
+        "name": "Casa Pereira"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6080569,
+          41.1451797
+        ]
+      },
+      "id": "node/4925167282"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4948512223",
+        "addr:housenumber": "70",
+        "addr:street": "Rua Cândido dos Reis",
+        "amenity": "bar",
+        "name": "Gin House",
+        "name:en": "Gin House",
+        "name:pt": "Gin House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6138836,
+          41.1467738
+        ]
+      },
+      "id": "node/4948512223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5094512522",
+        "addr:housenumber": "17-27",
+        "addr:street": "Rua Arquitecto Nicolau Nasoni",
+        "amenity": "bar",
+        "name": "All in Porto",
+        "phone": "+351 22 099 3829"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.613509,
+          41.1455129
+        ]
+      },
+      "id": "node/5094512522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5116267721",
+        "addr:housenumber": "175",
+        "addr:postcode": "4000-407",
+        "addr:street": "Praça Dona Filipa de Lencastre",
+        "amenity": "bar",
+        "name": "Rádio Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6128084,
+          41.1484821
+        ]
+      },
+      "id": "node/5116267721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5116279721",
+        "addr:housenumber": "82",
+        "addr:postcode": "4050-189",
+        "addr:street": "Rua de José Falcão",
+        "amenity": "bar",
+        "name": "Pausa Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6141525,
+          41.1485903
+        ]
+      },
+      "id": "node/5116279721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5116288021",
+        "addr:housenumber": "575",
+        "addr:street": "R. da Firmeza",
+        "amenity": "bar",
+        "name": "Bop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6071284,
+          41.150891
+        ]
+      },
+      "id": "node/5116288021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5337621059",
+        "amenity": "bar",
+        "name": "BAR VERDANIS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6840582,
+          41.1832396
+        ]
+      },
+      "id": "node/5337621059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5397516460",
+        "amenity": "bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6770875,
+          41.1696176
+        ]
+      },
+      "id": "node/5397516460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5511340063",
+        "addr:housenumber": "126",
+        "addr:street": "Praça de Carlos Alberto",
+        "amenity": "bar",
+        "name": "Craft Beer House",
+        "opening_hours": "Mo-Sa 14:00-02:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6158733,
+          41.147579
+        ]
+      },
+      "id": "node/5511340063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5531827969",
+        "addr:city": "Porto",
+        "addr:housenumber": "9",
+        "addr:postcode": "4050-021",
+        "addr:street": "Rua das Águas Férreas",
+        "amenity": "bar",
+        "name": "Bali-Hai Polynesian Bar",
+        "outdoor_seating": "no",
+        "smoking": "isolated",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.617969,
+          41.1562616
+        ]
+      },
+      "id": "node/5531827969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5657135213",
+        "addr:city": "Porto",
+        "addr:housenumber": "137",
+        "addr:postcode": "4050-317",
+        "addr:street": "Rua de José Falcão",
+        "amenity": "bar",
+        "email": "cafelusitano.porto@gmail.com",
+        "name": "Café Lusitano",
+        "phone": "+351 222 011 067",
+        "website": "http://www.cafelusitano.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6143106,
+          41.1491291
+        ]
+      },
+      "id": "node/5657135213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5785194953",
+        "addr:housenumber": "126",
+        "addr:street": "Rua Cândido dos Reis",
+        "amenity": "bar",
+        "name": "Vermutería Da Baixa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6137725,
+          41.1473924
+        ]
+      },
+      "id": "node/5785194953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5809054754",
+        "addr:housenumber": "86",
+        "addr:street": "Rua Ferreira Borges",
+        "amenity": "bar",
+        "name": "Prova",
+        "opening_hours": "Mo-Su 17:00-01:00",
+        "website": "https://prova.com.pt/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6151348,
+          41.1425117
+        ]
+      },
+      "id": "node/5809054754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5870327387",
+        "addr:housenumber": "124",
+        "addr:street": "Praça de Carlos Alberto",
+        "amenity": "bar",
+        "name": "Carmo Brewery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.615911,
+          41.147635
+        ]
+      },
+      "id": "node/5870327387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5870333488",
+        "addr:housenumber": "210",
+        "addr:street": "Rua de Sá da Bandeira",
+        "amenity": "bar",
+        "name": "Fábrica Nortada",
+        "name:en": "Nortada Microbrewery",
+        "opening_hours": "Tu-Sa 12:00-00:00; Su 16:00-00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6082227,
+          41.1478991
+        ]
+      },
+      "id": "node/5870333488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5870352185",
+        "addr:city": "Porto",
+        "addr:housenumber": "130",
+        "addr:postcode": "4000-254",
+        "addr:street": "Rua Formosa",
+        "amenity": "bar",
+        "brewery": "various",
+        "name": "Armazém da Cerveja",
+        "opening_hours": "Mo-Su 16:00-00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6036705,
+          41.1476318
+        ]
+      },
+      "id": "node/5870352185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5870352186",
+        "addr:housenumber": "72",
+        "addr:street": "Rua da Picaria",
+        "amenity": "bar",
+        "name": "A Fábrica da Picaria",
+        "opening_hours": "Mo-Sa 11:15-00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6129394,
+          41.1494458
+        ]
+      },
+      "id": "node/5870352186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5904820885",
+        "addr:housenumber": "44",
+        "addr:street": "Rua do Rosário",
+        "amenity": "bar",
+        "internet_access": "wlan",
+        "name": "Mercearia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6204312,
+          41.1480344
+        ]
+      },
+      "id": "node/5904820885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5908038454",
+        "addr:street": "Cais da Ribeira",
+        "amenity": "bar",
+        "name": "Heritage Bistro & Bar",
+        "operator": "Hotel Pestana",
+        "outdoor_seating": "yes",
+        "source": "survey",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6132554,
+          41.1404081
+        ]
+      },
+      "id": "node/5908038454"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5960174585",
+        "amenity": "bar",
+        "name": "Base"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6146976,
+          41.1461465
+        ]
+      },
+      "id": "node/5960174585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5978610789",
+        "amenity": "bar",
+        "cuisine": "regional;portuguese",
+        "internet_access": "wlan",
+        "name": "Xico Queijo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6143739,
+          41.1473112
+        ]
+      },
+      "id": "node/5978610789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5983038389",
+        "addr:housenumber": "54",
+        "addr:street": "Travessa de Cedofeita",
+        "amenity": "bar",
+        "name": "Museu d'Avo",
+        "opening_hours": "Mo-Sa 20:00-04:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6151967,
+          41.1498429
+        ]
+      },
+      "id": "node/5983038389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6242278785",
+        "addr:housenumber": "61",
+        "addr:postcode": "4050-527",
+        "addr:street": "Rua Sá de Noronha",
+        "amenity": "bar",
+        "cuisine": "peruvian",
+        "name": "Panca - Cevicheria & Pisco Bar",
+        "opening_hours": "Mo-Su 12:30-01:00",
+        "phone": "+351222033144"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6152907,
+          41.1478227
+        ]
+      },
+      "id": "node/6242278785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6372620124",
+        "amenity": "bar",
+        "name": "Erasmus Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6143618,
+          41.1480471
+        ]
+      },
+      "id": "node/6372620124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6441679648",
+        "amenity": "bar",
+        "brewery": "yes",
+        "name": "Pub Barril",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5935376,
+          41.1627886
+        ]
+      },
+      "id": "node/6441679648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6533615286",
+        "amenity": "bar",
+        "name": "Mini Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6129175,
+          41.148907
+        ]
+      },
+      "id": "node/6533615286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6533615788",
+        "amenity": "bar",
+        "name": "Almada Minha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6122081,
+          41.1490613
+        ]
+      },
+      "id": "node/6533615788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6533615789",
+        "amenity": "bar",
+        "name": "Traca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.612922,
+          41.1491807
+        ]
+      },
+      "id": "node/6533615789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6533624685",
+        "amenity": "bar",
+        "name": "Club 21"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6081506,
+          41.1471943
+        ]
+      },
+      "id": "node/6533624685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6534444886",
+        "amenity": "bar",
+        "name": "Vintage Bar and Antique Shops"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6203553,
+          41.1432373
+        ]
+      },
+      "id": "node/6534444886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6549945394",
+        "addr:housenumber": "81",
+        "addr:street": "Rua Cândido dos Reis",
+        "amenity": "bar",
+        "name": "Bierhaus Porto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6139924,
+          41.1470773
+        ]
+      },
+      "id": "node/6549945394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6549945395",
+        "addr:housenumber": "79",
+        "addr:street": "Rua Cândido dos Reis",
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/rendezvousclubofficial/",
+        "name": "Rendez Vous Club"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6140712,
+          41.1469755
+        ]
+      },
+      "id": "node/6549945395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6550894076",
+        "addr:housenumber": "29",
+        "amenity": "bar",
+        "name": "Bar das Cardosas",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6117535,
+          41.1459306
+        ]
+      },
+      "id": "node/6550894076"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6593449222",
+        "amenity": "bar",
+        "name": "Cenáculo",
+        "opening_hours": "Mo-Su 10:00-02:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6109642,
+          41.1675692
+        ]
+      },
+      "id": "node/6593449222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6621069148",
+        "addr:city": "Porto",
+        "addr:street": "Cais da Ribeira",
+        "amenity": "bar",
+        "name": "Hasta Pública"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6109615,
+          41.140724
+        ]
+      },
+      "id": "node/6621069148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6641288833",
+        "addr:city": "Porto",
+        "addr:housename": "Casa da Guitarra - Sé",
+        "addr:housenumber": "49",
+        "addr:postcode": "4000-545",
+        "addr:street": "Avenida Vímara Peres",
+        "amenity": "bar",
+        "contact:website": "http://casadaguitarra.pt",
+        "name": "Casa da Guitarra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.610299,
+          41.1426117
+        ]
+      },
+      "id": "node/6641288833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6795947725",
+        "amenity": "bar",
+        "name": "Alfarroba"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6024546,
+          41.1735744
+        ]
+      },
+      "id": "node/6795947725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6819313985",
+        "amenity": "bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.621951,
+          41.167554
+        ]
+      },
+      "id": "node/6819313985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6876157567",
+        "addr:city": "Santa Marinha e São Pedro da Afurada",
+        "addr:housenumber": "247",
+        "addr:postcode": "4400-617",
+        "addr:street": "R. Daciano Baptista Marques",
+        "amenity": "bar",
+        "name": "Office.Come",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6401355,
+          41.1425636
+        ]
+      },
+      "id": "node/6876157567"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7031904015",
+        "addr:city": "Porto",
+        "addr:housenumber": "66A",
+        "addr:street": "Rua de Clemente Meneres",
+        "amenity": "bar",
+        "description": "Espiga\n* Só servimos refeições com marcação prévia de, pelo menos, um dia\n\nBazar do Espiga | Centro Comercial Bombarda\n* Loja de produtos artesanais",
+        "email": "espiga.galeriabar@gmail.com",
+        "internet_access": "wlan",
+        "name": "Espiga",
+        "phone": "93 421 43 08 | 93 233 75 33",
+        "tourism": "gallery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6192968,
+          41.1487306
+        ]
+      },
+      "id": "node/7031904015"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7070431977",
+        "amenity": "bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6499958,
+          41.151095
+        ]
+      },
+      "id": "node/7070431977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7184471423",
+        "addr:street": "Travessa de Passos Manuel",
+        "amenity": "bar",
+        "brewery": "various",
+        "name": "Clube Porto Rugby"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6080863,
+          41.1470789
+        ]
+      },
+      "id": "node/7184471423"
+    }
+  ]
+}

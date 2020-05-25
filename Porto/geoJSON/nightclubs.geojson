@@ -1,0 +1,289 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2020-05-18T20:48:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1223740137",
+        "addr:city": "Porto",
+        "addr:country": "PT",
+        "addr:postcode": "4050-252",
+        "addr:street": "Mercado Ferreira Borges",
+        "amenity": "nightclub",
+        "email": "mail@hard-club.com",
+        "name": "Hard Club",
+        "old_name": "Mercado Ferreira Borges",
+        "phone": "+351 707 100021",
+        "website": "http://www.hard-club.com",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6148896,
+          41.1418192
+        ]
+      },
+      "id": "node/1223740137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2204179798",
+        "amenity": "nightclub",
+        "name": "Pitch Club"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6081509,
+          41.1471145
+        ]
+      },
+      "id": "node/2204179798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2204179845",
+        "addr:city": "Porto",
+        "addr:country": "PT",
+        "addr:housename": "Estação de São Bento",
+        "addr:street": "Rua da Madeira",
+        "amenity": "nightclub",
+        "name": "Gare Club"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.60959,
+          41.1459986
+        ]
+      },
+      "id": "node/2204179845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2218179601",
+        "amenity": "nightclub",
+        "name": "Copa Kabana Strip Club"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6064631,
+          41.1432366
+        ]
+      },
+      "id": "node/2218179601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3509402693",
+        "addr:city": "Porto",
+        "addr:housenumber": "835/843",
+        "addr:postcode": "4150-154",
+        "addr:street": "Avenida do Brasil",
+        "amenity": "nightclub",
+        "name": "Indústria Club",
+        "opening_hours": "Th-Sa 00:00-06:00",
+        "phone": "+351 220 962 935",
+        "website": "http://www.industria-club.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6834376,
+          41.1591887
+        ]
+      },
+      "id": "node/3509402693"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3584605826",
+        "addr:city": "Porto",
+        "addr:country": "PT",
+        "addr:housenumber": "611",
+        "addr:postcode": "4000-046",
+        "addr:street": "Rua da Alegria",
+        "amenity": "nightclub",
+        "name": "Eskada Porto",
+        "phone": "+351 916 676729"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6025413,
+          41.1560741
+        ]
+      },
+      "id": "node/3584605826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3613975670",
+        "addr:city": "Porto",
+        "addr:country": "PT",
+        "addr:housenumber": "89",
+        "addr:postcode": "4050-151",
+        "addr:street": "Rua do Conde de Vizela",
+        "amenity": "nightclub",
+        "name": "Dot Club",
+        "opening_hours": "Th-Sa 23:00-04:00",
+        "phone": "+351 917 363287"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6136329,
+          41.1468284
+        ]
+      },
+      "id": "node/3613975670"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3616447571",
+        "addr:city": "Porto",
+        "addr:country": "PT",
+        "addr:housenumber": "1000",
+        "addr:postcode": "4150-574",
+        "addr:street": "Rua do Passeio Alegre",
+        "amenity": "nightclub",
+        "name": "Crystal Club",
+        "opening_hours": "Tu-We 12:30-15:00, 20:00-00:00; Th-Fr 12:30-15:00, 20:00-04:00; Sa 20:00-04:00",
+        "website": "http://www.crystalclub.pt/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6723202,
+          41.1491824
+        ]
+      },
+      "id": "node/3616447571"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3978694980",
+        "addr:city": "Porto",
+        "addr:housenumber": "62",
+        "addr:postcode": "4000-064",
+        "addr:street": "Avenida dos Aliados",
+        "amenity": "nightclub",
+        "email": "boulevard.aliados@gmail.com",
+        "name": "Boulevard",
+        "opening_hours": "Fr-Sa 00:00-06:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6108558,
+          41.1473326
+        ]
+      },
+      "id": "node/3978694980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4070713314",
+        "addr:city": "Porto",
+        "addr:housenumber": "Loja 1",
+        "addr:postcode": "4150",
+        "addr:street": "Rua Professor Abel Salazar",
+        "amenity": "nightclub",
+        "name": "Opium Club",
+        "phone": "+351 911 873 889"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6306896,
+          41.1521942
+        ]
+      },
+      "id": "node/4070713314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4554247076",
+        "amenity": "nightclub",
+        "name": "Real Feitorya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6138763,
+          41.1414395
+        ]
+      },
+      "id": "node/4554247076"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4554590988",
+        "amenity": "nightclub",
+        "name": "Hot Five Jazz & Blues Club"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6078912,
+          41.1423566
+        ]
+      },
+      "id": "node/4554590988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4925132156",
+        "amenity": "nightclub",
+        "name": "Top Ten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.608075,
+          41.1450808
+        ]
+      },
+      "id": "node/4925132156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7128800889",
+        "addr:housenumber": "38",
+        "addr:postcode": "4200-110",
+        "addr:street": "Rua do Salgueiral",
+        "amenity": "nightclub",
+        "name": "Discoteca Number 1",
+        "name:pt": "Discoteca Number one",
+        "opening_hours": "Fr-Su 00:00-07:00",
+        "phone": "22 509 5503"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.5897529,
+          41.1735914
+        ]
+      },
+      "id": "node/7128800889"
+    }
+  ]
+}

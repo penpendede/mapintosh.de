@@ -1,0 +1,438 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2020-05-18T20:49:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2204282649",
+        "alt_name": "Bar Prioridade",
+        "amenity": "pub",
+        "description": "Baldes, Shots, Caipirinhas",
+        "name": "Prioridade"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6113037,
+          41.1408382
+        ]
+      },
+      "id": "node/2204282649"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2204347241",
+        "amenity": "pub",
+        "name": "O Muro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6151387,
+          41.1400786
+        ]
+      },
+      "id": "node/2204347241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2204347300",
+        "amenity": "pub",
+        "name": "Fragata Real"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.615068,
+          41.1402828
+        ]
+      },
+      "id": "node/2204347300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2206294640",
+        "amenity": "pub",
+        "name": "Granel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6120223,
+          41.1408396
+        ]
+      },
+      "id": "node/2206294640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2206402515",
+        "amenity": "pub",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Pipas",
+        "name:tr": "Wifi bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6128212,
+          41.1406998
+        ]
+      },
+      "id": "node/2206402515"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2206403837",
+        "amenity": "pub",
+        "name": "Porto de Encontro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.612894,
+          41.141038
+        ]
+      },
+      "id": "node/2206403837"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2206403841",
+        "amenity": "pub",
+        "name": "Bar do Falcão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6128816,
+          41.1408664
+        ]
+      },
+      "id": "node/2206403841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2206428120",
+        "amenity": "pub",
+        "name": "Água d'Ouro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6132732,
+          41.1406634
+        ]
+      },
+      "id": "node/2206428120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2206428135",
+        "amenity": "pub",
+        "name": "Aniki Bobó"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6136137,
+          41.1407072
+        ]
+      },
+      "id": "node/2206428135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2206428154",
+        "amenity": "pub",
+        "name": "Porto Feio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6138016,
+          41.140524
+        ]
+      },
+      "id": "node/2206428154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2206428166",
+        "amenity": "pub",
+        "name": "Petrus Wine Caffé"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6137504,
+          41.1406899
+        ]
+      },
+      "id": "node/2206428166"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2206516829",
+        "amenity": "pub",
+        "name": "Ode"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.614908,
+          41.1403271
+        ]
+      },
+      "id": "node/2206516829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2207669776",
+        "addr:housenumber": "6",
+        "addr:street": "Rua de Afonso Martins Alho",
+        "amenity": "pub",
+        "internet_access": "wlan",
+        "name": "Em Canto",
+        "opening_hours": "We-Mo 00:00-24:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6120774,
+          41.1445673
+        ]
+      },
+      "id": "node/2207669776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2245080993",
+        "amenity": "pub",
+        "description": "Wine & Food",
+        "name": "Oásis da Sé"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6102938,
+          41.1425348
+        ]
+      },
+      "id": "node/2245080993"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3444886626",
+        "amenity": "pub",
+        "name": "Bonaparte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6789143,
+          41.1537545
+        ]
+      },
+      "id": "node/3444886626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3651488236",
+        "addr:city": "Porto",
+        "addr:country": "PT",
+        "addr:housenumber": "4",
+        "addr:postcode": "4000-171",
+        "addr:street": "Travessa de Cimo de Vila",
+        "amenity": "pub",
+        "cuisine": "hot_dog",
+        "description": "O original cachorrinho",
+        "name": "Cervejaria Gazela",
+        "name:en": "Gazela",
+        "name:pt": "Gazela",
+        "opening_hours": "Mo-Sa 12:00-22:30; PH off",
+        "operator": "Campos Machado & Garcia, Lda.",
+        "phone": "+351 222 054 869"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6075891,
+          41.1448852
+        ]
+      },
+      "id": "node/3651488236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3707964223",
+        "amenity": "pub",
+        "name": "Cervejaria Santo Ildefonso"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6028472,
+          41.1465646
+        ]
+      },
+      "id": "node/3707964223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4097873959",
+        "amenity": "pub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6239793,
+          41.1482206
+        ]
+      },
+      "id": "node/4097873959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4241119916",
+        "amenity": "pub",
+        "name": "Pipa Velha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.614912,
+          41.1496771
+        ]
+      },
+      "id": "node/4241119916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4275784593",
+        "addr:housenumber": "287",
+        "addr:postcode": "4000",
+        "addr:street": "Av. Rodrigues de Freitnas",
+        "amenity": "pub",
+        "name": "TerraPlana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6011785,
+          41.145664
+        ]
+      },
+      "id": "node/4275784593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4354290473",
+        "amenity": "pub",
+        "name": "A Tendinha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6033571,
+          41.1464016
+        ]
+      },
+      "id": "node/4354290473"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4354290606",
+        "amenity": "pub",
+        "name": "BAR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6032867,
+          41.1464165
+        ]
+      },
+      "id": "node/4354290606"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5226856450",
+        "amenity": "pub",
+        "name": "Ignez miradouro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6252595,
+          41.1453313
+        ]
+      },
+      "id": "node/5226856450"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5459525618",
+        "addr:city": "Porto",
+        "addr:housenumber": "124",
+        "addr:street": "Rua de Carlos Alberto",
+        "amenity": "pub",
+        "name": "Cervejaria do Carmo",
+        "old_name": "Confeitaria Central",
+        "outdoor_seating": "yes",
+        "was:shop": "pastry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6159013,
+          41.1475903
+        ]
+      },
+      "id": "node/5459525618"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5779499258",
+        "amenity": "pub",
+        "name": "jazz story"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6135945,
+          41.1470374
+        ]
+      },
+      "id": "node/5779499258"
+    }
+  ]
+}

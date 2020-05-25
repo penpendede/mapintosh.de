@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="upcoming website">
+  <script src="list.min.js"></script>
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>mapintosh.de - penpendede's map site</title>
+</head>
+<body>
+  <h1>mapintosh.de</h1>
+
+  <h2>penpendede's map site</h2>
+
+  <table id="maps">
+    <thead>
+      <tr>
+        <th><button class="sort" data-sort="name">Map</button></th>
+        <th><button class="sort" data-sort="modified">Modified</button></th>
+        <th><button class="sort" data-sort="created">Created</button></th>
+        <th>Description</th>
+        <th>Changes</th>
+      </tr>
+    </thead>
+    <tbody class="list">
+      <tr>
+        <th class="name">
+          <a href="Porto" target="_blank">Porto</a>
+        </th>
+        <td class="modified">
+          2020-05-25
+        </td>
+        <td class="created">
+          2020-05-24
+        </td>
+        <td>
+          accompanies
+          <a href="http://penpende.de/doku.php?id=gis:making_use_of_openstreetmap" target="_blank">Making use of OpenStreetMap</a>
+        </td>
+        <td>
+          instead of showing all kinds of POI you can now select it using the layer selector in the upper right corner.
+        </td>
+      </tr>
+      <tr>
+        <th class="name">
+          <a href="myOsm" target="_blank">OSM Map of Bonn</a>
+        </th>
+        <td class="modified">
+          2020-05-24
+        </td>
+        <td class="created">
+          2020-05-24
+        </td>
+        <td>
+          accompanies
+          <a href="http://penpende.de/doku.php?id=installation_guides:tileserver_on_raspberry_pi_4" target="_blank">Installing a tile server on a Raspberry Pi 4</a>
+        </td>
+        <td>
+          -
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p><a href="changelog.txt" target="_blank">Changelog</a></p>
+
+  <script>
+    var options = {
+      valueNames: ['name', 'modified', 'created']
+    }
+    var mapList = new List('maps', options);
+  </script>
+</body>
+</html>

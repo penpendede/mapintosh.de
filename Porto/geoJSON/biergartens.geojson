@@ -1,0 +1,24 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2020-05-18T20:46:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5907600393",
+        "amenity": "biergarten",
+        "name": "Estrella Galicia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6121002,
+          41.1448656
+        ]
+      },
+      "id": "node/5907600393"
+    }
+  ]
+}
