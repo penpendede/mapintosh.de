@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/Control.FullScreen.css" />
     <script src="../js/leaflet.js"></script>
     <script src="../js/Control.FullScreen.js"></script>
+    <script src="../js/leaflet-tilelayer-colorfilter.min.js"></script>
     <style>
       body {
         bottom: 0;
@@ -48,7 +49,7 @@
             fullscreenControlOptions: {
               position: 'topleft'
             },
-            layers: [baseMaps['osm'], overlayMaps['City Limits']]
+            layers: [baseMaps['OSM grayscale'], overlayMaps['City Limits']]
           }).fitBounds([
             [41.138351, -8.691294],
             [41.185935, -8.552009]
@@ -57,12 +58,25 @@
         }
       }
       var baseMaps = {
-        'osm': L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        'OSM color': L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
           maxZoom: 19,
           attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         }),
-        'Esri_WorldTopoMap': L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+        'OSM grayscale': L.tileLayer.colorFilter('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          maxZoom: 19,
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+          filter: [
+            'grayscale: 100%'
+          ]
+        }),
+        'Esri WorldTopoMap color': L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
 	  attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community'
+        }),
+        'Esri_WorldTopoMap grayscale': L.tileLayer.colorFilter('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+	  attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community',
+          filter: [
+            'grayscale: 100%'
+          ]
         })
       }
       var fileNames = ['bars', 'biergartens', 'cafes', 'nightclubs', 'pubs']
