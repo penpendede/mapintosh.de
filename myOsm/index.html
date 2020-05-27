@@ -40,13 +40,13 @@
     <div class="content" id="mapid"></div>
     <script>
       var baseMaps = {
-        'OSM.org color': L.tileLayer('https://penpendede.hopto.org/osm/{z}/{x}/{y}.png', {
+        'Local: osm color': L.tileLayer('https://mapintosh.de/tiles/osm/{z}/{x}/{y}.png', {
           maxZoom: 18,
           attribution:
             'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
             '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
         }),
-        'OSM.org grayscale': L.tileLayer.colorFilter('https://penpendede.hopto.org/osm/{z}/{x}/{y}.png', {
+        'Local: osm.org grayscale': L.tileLayer.colorFilter('https://mapintosh.de/tiles/osm/{z}/{x}/{y}.png', {
           maxZoom: 18,
           attribution:
             'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
@@ -55,13 +55,43 @@
             'grayscale: 100%'
           ]
         }),
-        'OSM.de color': L.tileLayer('https://penpendede.hopto.org/osm-de/{z}/{x}/{y}.png', {
+        'Local: osm-de color': L.tileLayer('https://mapintosh.de/tiles/osm-de/{z}/{x}/{y}.png', {
           maxZoom: 18,
           attribution:
             'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
             '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
         }),
-        'OSM.de grayscale': L.tileLayer.colorFilter('https://penpendede.hopto.org/osm-de/{z}/{x}/{y}.png', {
+        'Local: osm-de grayscale': L.tileLayer.colorFilter('https://mapintosh.de/tiles/osm-de/{z}/{x}/{y}.png', {
+          maxZoom: 18,
+          attribution:
+            'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+            '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+          filter: [
+            'grayscale: 100%'
+          ]
+        }),
+        'Pi4: osm color': L.tileLayer('https://penpendede.hopto.org/osm/{z}/{x}/{y}.png', {
+          maxZoom: 18,
+          attribution:
+            'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+            '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+        }),
+        'Pi4: osm.org grayscale': L.tileLayer.colorFilter('https://penpendede.hopto.org/osm/{z}/{x}/{y}.png', {
+          maxZoom: 18,
+          attribution:
+            'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+            '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+          filter: [
+            'grayscale: 100%'
+          ]
+        }),
+        'Pi4: osm-de color': L.tileLayer('https://penpendede.hopto.org/osm-de/{z}/{x}/{y}.png', {
+          maxZoom: 18,
+          attribution:
+            'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+            '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+        }),
+        'Pi4: osm-de grayscale': L.tileLayer.colorFilter('https://penpendede.hopto.org/osm-de/{z}/{x}/{y}.png', {
           maxZoom: 18,
           attribution:
             'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
@@ -72,24 +102,43 @@
         })
       }
       var overlayMaps = {
-        'train': L.tileLayer('https://penpendede.hopto.org/train/{z}/{x}/{y}.png', {
+        'Local: train': L.tileLayer('https://mapintosh.de/tiles/train/{z}/{x}/{y}.png', {
           maxZoom: 18,
           attribution:
             'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
             '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
         }),
-        'train-maxspeed': L.tileLayer('https://penpendede.hopto.org/train-maxspeed/{z}/{x}/{y}.png', {
+        'Local: train-maxspeed': L.tileLayer('https://mapintosh.de/tiles/train-maxspeed/{z}/{x}/{y}.png', {
           maxZoom: 18,
           attribution:
             'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
             '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
         }),
-        'train-signals': L.tileLayer('https://penpendede.hopto.org/train-signals/{z}/{x}/{y}.png', {
+        'Local: train-signals': L.tileLayer('https://mapintosh.de/tiles/train-signals/{z}/{x}/{y}.png', {
+          maxZoom: 18,
+          attribution:
+            'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+            '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+        }),
+        'Pi4: train': L.tileLayer('https://penpendede.hopto.org/train/{z}/{x}/{y}.png', {
+          maxZoom: 18,
+          attribution:
+            'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+            '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+        }),
+        'Pi4: train-maxspeed': L.tileLayer('https://penpendede.hopto.org/train-maxspeed/{z}/{x}/{y}.png', {
+          maxZoom: 18,
+          attribution:
+            'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+            '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+        }),
+        'Pi4: train-signals': L.tileLayer('https://penpendede.hopto.org/train-signals/{z}/{x}/{y}.png', {
           maxZoom: 18,
           attribution:
             'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
             '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
         })
+
       }
 
       var map = L.map('mapid', {
@@ -97,7 +146,7 @@
         fullscreenControlOptions: {
           position: 'topleft'
         },
-        layers: [baseMaps['OSM.de color']]
+        layers: [baseMaps['Local: osm-de color']]
       }).fitBounds([
         [50.632, 7.022],
         [50.775, 7.211]
