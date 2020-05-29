@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OSM Map of Bonn</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.min.css" />
+    <link rel="stylesheet" href="../css/leaflet.min.css" />
+    <link rel="stylesheet" href="../css/Control.FullScreen.min.css" />
+    <script src="../js/leaflet.js"></script>
+    <script src="../js/Control.FullScreen.min.js"></script>
+    <script src="../js/leaflet-tilelayer-colorfilter.min.js"></script>
+    <style>
+      body {
+        bottom: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .title {
+        font-family: sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        height: 48px;
+        line-height: 48px;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+      }
+      .content {
+        height: calc( 100% - 48px );
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="title">OSM Map of Bonn</div>
+    <div class="content" id="mapid"></div>
+    <script>
+      var baseMaps = {
+        'Local: osm color': L.tileLayer('https://mapintosh.de/tiles/osm/{z}/{x}/{y}.png', {
+          maxZoom: 18,
+          attribution:
+            'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+            '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+        }),
+        'Local: osm.org grayscale': L.tileLayer.colorFilter('https://mapintosh.de/tiles/osm/{z}/{x}/{y}.png', {
+          maxZoom: 18,
+          attribution:
+            'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+            '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+          filter: [
+            'grayscale: 100%'
+          ]
+        }),
+        'Local: osm-de color': L.tileLayer('https://mapintosh.de/tiles/osm-de/{z}/{x}/{y}.png', {
+          maxZoom: 18,
+          attribution:
+            'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+            '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+        }),
+        'Local: osm-de grayscale': L.tileLayer.colorFilter('https://mapintosh.de/tiles/osm-de/{z}/{x}/{y}.png', {
+          maxZoom: 18,
+          attribution:
+            'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+            '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+          filter: [
+            'grayscale: 100%'
+          ]
+        }),
+        'Pi4: osm color': L.tileLayer('https://penpendede.hopto.org/osm/{z}/{x}/{y}.png', {
+          maxZoom: 18,
+          attribution:
+            'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+            '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+        }),
+        'Pi4: osm.org grayscale': L.tileLayer.colorFilter('https://penpendede.hopto.org/osm/{z}/{x}/{y}.png', {
+          maxZoom: 18,
+          attribution:
+            'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+            '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+          filter: [
+            'grayscale: 100%'
+          ]
+        }),
+        'Pi4: osm-de color': L.tileLayer('https://penpendede.hopto.org/osm-de/{z}/{x}/{y}.png', {
+          maxZoom: 18,
+          attribution:
+            'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+            '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+        }),
+        'Pi4: osm-de grayscale': L.tileLayer.colorFilter('https://penpendede.hopto.org/osm-de/{z}/{x}/{y}.png', {
+          maxZoom: 18,
+          attribution:
+            'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+            '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+          filter: [
+            'grayscale: 100%'
+          ]
+        })
+      }
+      var overlayMaps = {
+        'Local: train': L.tileLayer('https://mapintosh.de/tiles/train/{z}/{x}/{y}.png', {
+          maxZoom: 18,
+          attribution:
+            'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+            '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+        }),
+        'Local: train-maxspeed': L.tileLayer('https://mapintosh.de/tiles/train-maxspeed/{z}/{x}/{y}.png', {
+          maxZoom: 18,
+          attribution:
+            'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+            '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+        }),
+        'Local: train-signals': L.tileLayer('https://mapintosh.de/tiles/train-signals/{z}/{x}/{y}.png', {
+          maxZoom: 18,
+          attribution:
+            'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+            '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+        }),
+        'Pi4: train': L.tileLayer('https://penpendede.hopto.org/train/{z}/{x}/{y}.png', {
+          maxZoom: 18,
+          attribution:
+            'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+            '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+        }),
+        'Pi4: train-maxspeed': L.tileLayer('https://penpendede.hopto.org/train-maxspeed/{z}/{x}/{y}.png', {
+          maxZoom: 18,
+          attribution:
+            'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+            '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+        }),
+        'Pi4: train-signals': L.tileLayer('https://penpendede.hopto.org/train-signals/{z}/{x}/{y}.png', {
+          maxZoom: 18,
+          attribution:
+            'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+            '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+        })
+
+      }
+
+      var map = L.map('mapid', {
+        fullscreenControl: true,
+        fullscreenControlOptions: {
+          position: 'topleft'
+        },
+        layers: [baseMaps['Local: osm-de color']]
+      }).fitBounds([
+        [50.632, 7.022],
+        [50.775, 7.211]
+      ])
+
+      L.control.layers(baseMaps, overlayMaps).addTo(map)
+    </script>
+  </body>
+</html>
