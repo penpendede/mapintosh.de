@@ -14,6 +14,6 @@ PRE
 }
 POST
   node -p "JSON.stringify(JSON.parse(require('fs').readFileSync(0, 'utf-8')))" \
-	  < geoJSON/$district.geojson > geoJSON/$district.min.geojson
+    < geoJSON/$district.geojson > geoJSON/$district.min.geojson
 done
 rm -f geoJSON/district.tmp

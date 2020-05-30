@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../css/style.min.css" />
     <link rel="stylesheet" href="../css/leaflet.min.css" />
     <link rel="stylesheet" href="../css/Control.FullScreen.min.css" />
+    <link rel="stylesheet" href="../css//customLayerSelector.min.css" />
     <script src="../js/leaflet.js"></script>
     <script src="../js/Control.FullScreen.min.js"></script>
     <script src="../js/leaflet-tilelayer-colorfilter.min.js"></script>
@@ -41,6 +42,17 @@
     <div class="content" id="mapid"></div>
     <script>
       var map
+      var layerNames = ['Bad_Godesberg', 'Beuel', 'Bonn', 'Hardtberg']
+      var remainingLoads = layerNames.length
+      function toggleLayer (layerName) {
+        if (document.getElementById(layerName).checked) {
+          map.addLayer(overlayMaps[layerName + '-area'])
+          map.addLayer(overlayMaps[layerName + '-border'])
+        } else {
+          map.removeLayer(overlayMaps[layerName + '-area'])
+          map.removeLayer(overlayMaps[layerName + '-border'])
+        }
+      }
       function addMap() {
         if (remainingLoads) {
           window.setTimeout(addMap, 100)
@@ -55,7 +67,35 @@
             [50.632, 7.022],
             [50.775, 7.211]
           ])
-          L.control.layers(baseMaps, overlayMaps).addTo(map)
+          var customLayerSelector = L.control({position: 'topright'})
+          customLayerSelector.onAdd = function (map) {
+            var div = L.DomUtil.create('div', 'custom layer selector')
+            div.style.border = '1px solid black;'
+            var innerHTML = ['<div class="custom-layer-selector">']
+            layerNames.forEach(layerName => {
+              innerHTML.push([
+                '<div><input ',
+                'type="checkbox"',
+                'checked ',
+                'id="' + layerName + '" ',
+                'name="' + layerName + '" ',
+                'value="' + layerName + '" ',
+                'onchange="toggleLayer(\'' + layerName + '\')"',
+                '>',
+                '<label for="' + layerName + '">',
+                layerName.replace('_', ' '),
+                '</label>',
+                '</div>'
+              ].join(''))
+              map.addLayer(overlayMaps[layerName + '-area'])
+              map.addLayer(overlayMaps[layerName + '-border'])
+            })
+            innerHTML.push('</div>')
+            div.innerHTML = innerHTML.join('\n')
+            div.firstChild.onmousedown = div.firstChild.ondblclick = L.DomEvent.stopPropagation
+            return div
+          }
+          customLayerSelector.addTo(map)
         }
       }
       var attribution = 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
@@ -75,15 +115,14 @@
           ]
         })
       }
-      var fileNames = ['Bad_Godesberg', 'Beuel', 'Bonn', 'Hardtberg']
-      var remainingLoads = fileNames.length
+
       var overlayMaps = { }
 
-      fileNames.forEach(fileName =>
-        fetch('geoJSON/' + fileName + '.min.geojson')
+      layerNames.forEach(layerName =>
+        fetch('geoJSON/' + layerName + '.min.geojson')
           .then(response => response.json())
           .then(geoJSON => {
-            overlayMaps[fileName + '-border'] = L.geoJSON(geoJSON, {
+            overlayMaps[layerName + '-border'] = L.geoJSON(geoJSON, {
               style: {
                 color: '#000099',
                 fill: false,
@@ -91,7 +130,7 @@
                 weight: 1
               }
             })
-            overlayMaps[fileName + '-area'] = L.TileLayer.BoundaryCanvas.createFromLayer(baseMaps.OSM, {
+            overlayMaps[layerName + '-area'] = L.TileLayer.BoundaryCanvas.createFromLayer(baseMaps.OSM, {
               boundary: geoJSON
             })
             remainingLoads--
