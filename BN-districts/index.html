@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="../css/Control.FullScreen.min.css" />
     <script src="../js/leaflet.js"></script>
     <script src="../js/Control.FullScreen.min.js"></script>
+    <script src="../js/leaflet-tilelayer-colorfilter.min.js"></script>
+    <script src="../js/BoundaryCanvas.min.js"></script>
     <style>
       body {
         bottom: 0;
@@ -48,7 +50,7 @@
             fullscreenControlOptions: {
               position: 'topleft'
             },
-            layers: [baseMaps['OSM']]
+            layers: [baseMaps['BW']]
           }).fitBounds([
             [50.632, 7.022],
             [50.775, 7.211]
@@ -56,13 +58,22 @@
           L.control.layers(baseMaps, overlayMaps).addTo(map)
         }
       }
+      var attribution = 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+            '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
       var baseMaps = {
         'OSM': L.tileLayer('https://mapintosh.de/tiles/osm/{z}/{x}/{y}.png', {
           maxZoom: 18,
-          attribution:
-            'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
-            '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+          attribution: attribution
         }),
+        'BW': L.tileLayer.colorFilter('https://mapintosh.de/tiles/osm/{z}/{x}/{y}.png', {
+          maxZoom: 18,
+          attribution: attribution,
+          filter: [
+            'blur: 0.5px',
+            'grayscale: 60%',
+            'opacity: 30%'
+          ]
+        })
       }
       var fileNames = ['Bad_Godesberg', 'Beuel', 'Bonn', 'Hardtberg']
       var remainingLoads = fileNames.length
@@ -71,8 +82,18 @@
       fileNames.forEach(fileName =>
         fetch('geoJSON/' + fileName + '.min.geojson')
           .then(response => response.json())
-	  .then(geoJSON => {
-            overlayMaps[fileName] = L.geoJSON(geoJSON)
+          .then(geoJSON => {
+            overlayMaps[fileName + '-border'] = L.geoJSON(geoJSON, {
+              style: {
+                color: '#000099',
+                fill: false,
+                opacity: 0.5,
+                weight: 1
+              }
+            })
+            overlayMaps[fileName + '-area'] = L.TileLayer.BoundaryCanvas.createFromLayer(baseMaps.OSM, {
+              boundary: geoJSON
+            })
             remainingLoads--
           })
       )

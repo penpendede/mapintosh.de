@@ -5,6 +5,7 @@
   "main": "index.html",
   "dependencies": {
     "leaflet": "^1.6.0",
+    "leaflet-boundary-canvas": "^1.0.0",
     "leaflet.fullscreen": "^1.6.0",
     "leaflet.tilelayer.colorfilter": "^1.2.5",
     "list.js": "^1.5.0",
