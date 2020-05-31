@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Trees in Bonn</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.min.css" />
+    <link rel="stylesheet" href="../css/leaflet.min.css" />
+    <link rel="stylesheet" href="../css/Control.FullScreen.css" />
+    <link rel="stylesheet" href="../css/customLayerSelector.min.css" />
+    <link rel="stylesheet" href="../css/MarkerCluster.min.css" />
+    <link rel="stylesheet" href="../css/MarkerCluster.Default.min.css" />
+    <script src="../js/leaflet.js"></script>
+    <script src="../js/Control.FullScreen.min.js"></script>
+    <script src="../js/leaflet-tilelayer-colorfilter.min.js"></script>
+    <script src="../js/BoundaryCanvas.min.js"></script>
+    <script src="../js/leaflet.markercluster.js"></script>
+    <script src="data/tree.js"></script>
+    <style>
+      body {
+        bottom: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .title {
+        font-family: sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        height: 48px;
+        line-height: 48px;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+      }
+      .content {
+        height: calc( 100% - 48px );
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="title">Trees in Bonn</div>
+    <div class="content" id="mapid"></div>
+    <script>
+      var attribution = 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+            '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
+
+      var map = L.map('mapid', {
+        fullscreenControl: true,
+        fullscreenControlOptions: {
+          position: 'topleft'
+        },
+        layers: [
+          L.tileLayer.colorFilter('https://mapintosh.de/tiles/osm/{z}/{x}/{y}.png', {
+            maxZoom: 18,
+            attribution: attribution,
+            filter: [
+              'blur: 0.5px',
+              'grayscale: 60%',
+              'opacity: 30%'
+            ]
+          })
+        ]
+      }).fitBounds([
+        [50.632, 7.022],
+        [50.775, 7.211]
+      ])
+      
+      fetch('data/bonn.geojson')
+        .then(response => response.json())
+        .then(geoJSON => {
+          L.TileLayer.boundaryCanvas('https://mapintosh.de/tiles/osm/{z}/{x}/{y}.png', {
+            maxZoom: 18,
+            attribution: attribution,
+            boundary: geoJSON
+          }).addTo(map)
+          L.geoJSON(geoJSON, {
+            style: {
+              color: '#000099',
+              fill: false,
+              opacity: 0.5,
+              weight: 1
+            }
+          }).addTo(map)
+        })
+        var markers = L.markerClusterGroup();
+        for (var i = 0; i < treeData.length; i++) {
+          var data = treeData[i]
+          var marker = L.marker(new L.LatLng(data[0], data[1]), { title: data[2] })
+          marker.bindPopup('<h3>' + data[2] + '</h3><p>' + data[3] + '</p>')
+          markers.addLayer(marker)
+        }
+        map.addLayer(markers)
+    </script>
+  </body>
+</html>
+
