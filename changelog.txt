@@ -1,4 +1,6 @@
 
+2020-06-02 adde Recycling in Bonn
+2020-05-31 added Trees in Bonn
 2020-05-30 selected districts of Bonn are shown in color, everything else is dimmed out
 2020-05-29 use minimized files
 2020-05-27 Local, pre-rendered tiles
