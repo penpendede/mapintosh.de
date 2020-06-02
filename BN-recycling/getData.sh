@@ -35,7 +35,7 @@ curl 'https://stadtplan.bonn.de/geojson?Thema=17250' | \
 echo "var altglas=[" > data/altglas.js
 spatialite data/recycling.sqlite >> data/altglas.js <<ALTGLAS
 .headers off
-select '[' || x(geometry) || ',' || y(geometry) || ',"Glas (' || container_id || ')","' || standort || '"],'
+select '[' || y(geometry) || ',' || x(geometry) || ',"Glas (' || container_id || ')","' || standort || '"],'
 from altglas;
 ALTGLAS
 echo "]" >> data/altglas.js
@@ -43,7 +43,7 @@ echo "]" >> data/altglas.js
 echo "var altpapier=[" > data/altpapier.js
 spatialite data/recycling.sqlite >> data/altpapier.js <<ALTPAPIER
 .headers off
-select '[' || x(geometry) || ',' || y(geometry) || ',"Papier (' || container_id || ')","' || standort || '"],'
+select '[' || y(geometry) || ',' || x(geometry) || ',"Papier (' || container_id || ')","' || standort || '"],'
 from altpapier;
 ALTPAPIER
 echo "]" >> data/altpapier.js
@@ -51,7 +51,7 @@ echo "]" >> data/altpapier.js
 echo "var alttextil=[" > data/alttextil.js
 spatialite data/recycling.sqlite >> data/alttextil.js <<ALTTEXTIL
 .headers off
-select '[' || x(geometry) || ',' || y(geometry) || ',"Textil (' || container_id || ')","' || standort || '"],'
+select '[' || y(geometry) || ',' || x(geometry) || ',"Textil (' || container_id || ')","' || standort || '"],'
 from alttextil;
 ALTTEXTIL
 echo "]" >> data/alttextil.js
@@ -59,7 +59,7 @@ echo "]" >> data/alttextil.js
 echo "var elektrokleingeraete=[" > data/elektrokleingeraete.js
 spatialite data/recycling.sqlite >> data/elektrokleingeraete.js <<ELEKTRO
 .headers off
-select '[' || x(geometry) || ',' || y(geometry) || ',"Elektro (' || container_id || ')","' || standort || '"],'
+select '[' || y(geometry) || ',' || x(geometry) || ',"Elektro (' || container_id || ')","' || standort || '"],'
 from elektrokleingeraete;
 ELEKTRO
 echo "]" >> data/elektrokleingeraete.js
@@ -67,7 +67,7 @@ echo "]" >> data/elektrokleingeraete.js
 echo "var gruen=[" > data/gruen.js
 spatialite data/recycling.sqlite >> data/gruen.js <<GRUEN
 .headers off
-select '[' || x(geometry) || ',' || y(geometry) || ',"Grün (' || container_id || ')","' ||
+select '[' || y(geometry) || ',' || x(geometry) || ',"Grün (' || container_id || ')","' ||
 '<table>' ||
 '<tr><th>Standort</th><td>' || standort || '</td></tr>' ||
 '<tr><th>Containertyp</th><td>' || containertyp_bez || ' (' || containertyp || ')</td></tr>' ||
@@ -81,7 +81,7 @@ echo "]" >> data/gruen.js
 echo "var wertUndSchadstoffe=[" > data/wertUndSchadstoffe.js
 spatialite data/recycling.sqlite >> data/wertUndSchadstoffe.js <<WERTUNDSCHADSTOFFE
 .headers off
-select '[' || x(geometry) || ',' || y(geometry) || ',"Wert- und Schadstoffe (' || container_id || ')","' ||
+select '[' || y(geometry) || ',' || x(geometry) || ',"Wert- und Schadstoffe (' || container_id || ')","' ||
 '<table>' ||
 '<tr><th>Standort</th><td>' || standort || '</td></tr>' ||
 '<tr><th>Abfuhrtermine</th><td>' || abfuhrtermine || '</td></tr>' ||
