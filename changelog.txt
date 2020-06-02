@@ -1,10 +1,10 @@
 
-2020-06-02 adde Recycling in Bonn
-2020-05-31 added Trees in Bonn
+2020-06-02 adde 'Recycling in Bonn'
+2020-05-31 added 'Trees in Bonn'
 2020-05-30 selected districts of Bonn are shown in color, everything else is dimmed out
 2020-05-29 use minimized files
 2020-05-27 Local, pre-rendered tiles
 2020-05-26 Added grayscale rendering to maps
 2020-05-25 Maps now have maximize buttons
-           OSM Map of Porto now uses layer selector
+           'OSM Map of Porto' now uses layer selector
 2020-05-24 First version of the site
