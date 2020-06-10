@@ -9,9 +9,9 @@
   <title>mapintosh.de - penpendede's map site</title>
 </head>
 <body>
-  <h1>mapintosh.de</h1>
+  <h1>MAPINTOSH.DE</h1>
 
-  <h2>penpendede's map site</h2>
+  <h1>penpendede's map site</h1>
 
   <p>
     The source of this site is available at
@@ -22,7 +22,9 @@
     ways in which you can use maps and location-related information.
   </p>
 
-  <table id="maps">
+  <h2>Online Maps</h2>
+
+  <table id="webmaps">
     <thead>
       <tr>
         <th><button class="sort" data-sort="name">Map</button></th>
@@ -46,8 +48,8 @@
         </td>
         <td>
           city districts limits are taken from <a href="https://opendata.bonn.de">opendata.bonn.de</a> and then processed by a
-	  <a href="https://github.com/penpendede/mapintosh.de/blob/master/BN-districts/getDistricts.sh">tiny shell script</a>
-	  you may find interesting.
+          <a href="https://github.com/penpendede/mapintosh.de/blob/master/BN-districts/getDistricts.sh">tiny shell script</a>
+          you may find interesting.
         </td>
         <td>
           <ul>
@@ -117,9 +119,9 @@
           2020-06-02
         </td>
         <td>
-	  Part of getData.js deals with fixing issues with the original data. Once they are fixed the original script
-	  will remain available as it illustrates how command-line tools can be used to fix certain issues with GeoJSON
-	  files.
+          Part of getData.js deals with fixing issues with the original data. Once they are fixed the original script
+          will remain available as it illustrates how command-line tools can be used to fix certain issues with GeoJSON
+          files.
         </td>
         <td>
           -
@@ -137,11 +139,11 @@
           2020-05-31
         </td>
         <td>
-	  Visualizes trees in public space (streets, parks) within the city limits of Bonn and provides the species as
-	  well as the age (open data, over 60k entries). It also shows how you can visualize such a huge dataset and
-	  still have Leaflet render it very rapidly. It uses open data from
-	  <a href="https://opendata.bonn.de/dataset/baumstandorte">https://opendata.bonn.de/dataset/baumstandorte</a>
-	  released under CC0
+          Visualizes trees in public space (streets, parks) within the city limits of Bonn and provides the species as
+          well as the age (open data, over 60k entries). It also shows how you can visualize such a huge dataset and
+          still have Leaflet render it very rapidly. It uses open data from
+          <a href="https://opendata.bonn.de/dataset/baumstandorte">https://opendata.bonn.de/dataset/baumstandorte</a>
+          released under CC0
         </td>
         <td>
           -
@@ -153,16 +155,74 @@
 
   <h2>Software used for the maps</h2>
   <p>
-    For what I have been using for the maps see <a href="http://penpende.de/doku.php?id=bookmarks:main#web_maps">penpende.de</a>
+    For what I have been using for the above maps see
+    <a href="http://penpende.de/doku.php?id=bookmarks:main#web_maps">penpende.de</a>
   </p>
 
-  <p><a href="changelog.txt" target="_blank">Changelog</a></p>
+  <h2>Maps with QGIS</h2>
+
+  <p>
+    QGIS is a free and open source geographic information system for the desktop that is available for many platforms.
+  </p>
+
+  <table id="qgismaps">
+    <thead>
+      <tr>
+        <th><button class="sort" data-sort="name">Map</button></th>
+        <th><button class="sort" data-sort="modified">Modified</button></th>
+        <th><button class="sort" data-sort="created">Created</button></th>
+        <th>Description</th>
+        <th>Changes</th>
+      </tr>
+    </thead>
+    <tbody class="list">
+
+      <tr>
+        <th class="name">
+          <!-- a href="BN-districts" target="_blank" -->Stolpersteine in Bonn<!-- /a -->
+        </th>
+        <td class="modified">
+          2020-06-10
+        </td>
+        <td class="created">
+          2020-06-10
+        </td>
+        <td>
+          <p>
+            A QGIS project that has all stolpersteine in Bonn. The GeoPackage file was generated using QGIS and a cute
+            plugin that queries the OSM database. Description how to generated it will follow soon. For now you can
+          </p>
+          <ul>
+            <li>
+              <a href="QGIS/Stolpersteine_in_Bonn/Stolpersteine_in_Bonn.qgs">Get the qgis project</a> (data is loaded
+              from this server)
+            </li>
+            <li>
+              <a href="QGIS/Stolpersteine_in_Bonn/Stolpersteine_in_Bonn_Data.zip">Get a ZIP</a> that contains all files
+              used (including the QGIS project)
+            </li>
+          </ul>
+          <p>
+            You don't already have QGIS? No problem, it is available for most platforms at
+            <a href="https://www.qgis.org/" target="_blank">qgis.org</a>.
+          </p>
+        </td>
+        <td>
+          -
+        </td>
+      </tr>
+
+    </tbody>
+  </table>
+
+  <h2><a href="changelog.txt" target="_blank">Changelog</a></h2>
 
   <script>
     var options = {
       valueNames: ['name', 'modified', 'created']
     }
-    var mapList = new List('maps', options);
+    var webmapsList = new List('webmaps', options);
+    var qgismapsList = new List('qgismaps', options);
   </script>
 </body>
 </html>
