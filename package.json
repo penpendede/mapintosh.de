@@ -4,7 +4,7 @@
   "description": "mapintosh.de source",
   "main": "index.html",
   "dependencies": {
-    "leaflet": "^1.6.0",
+    "leaflet": "^1.7.1",
     "leaflet-boundary-canvas": "^1.0.0",
     "leaflet.fullscreen": "^1.6.0",
     "leaflet.markercluster": "^1.4.1",
