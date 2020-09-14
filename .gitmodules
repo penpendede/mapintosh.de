@@ -1,0 +1,4 @@
+[submodule "airportWeather"]
+	path = airportWeather
+	url = git@github.com:penpendede/airportWeather.git
+	branch = master
