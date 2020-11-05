@@ -2,3 +2,6 @@
 	path = airportWeather
 	url = git@github.com:penpendede/airportWeather.git
 	branch = master
+[submodule "stolperstein-world"]
+	path = stolperstein-world
+	url = git@github.com:penpendede/stolperstein-world.git
