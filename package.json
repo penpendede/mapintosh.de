@@ -10,7 +10,9 @@
     "leaflet.markercluster": "^1.4.1",
     "leaflet.tilelayer.colorfilter": "^1.2.5",
     "list.js": "^1.5.0",
-    "minify": "^5.1.1"
+    "minify": "^5.1.1",
+    "spatialite": "^0.1.0",
+    "sqlite3": "^5.0.0"
   },
   "devDependencies": {},
   "scripts": {
