@@ -46,8 +46,10 @@ const db = new sqlite.Database('./stolpersteine/db.sqlite3', function withTable 
             'FOREIGN KEY(nodeid) REFERENCES stein(nodeid)' +
             ')'
           )
-        var insertStein = db.prepare('INSERT OR REPLACE INTO stein VALUES (?, ?, ?, ?)')
-        var insertKv = db.prepare('INSERT OR REPLACE INTO kv VALUES (?, ?, ?, ?)')
+          .run('BEGIN TRANSACTION')
+        const insertStein = db.prepare('INSERT OR REPLACE INTO stein VALUES (?, ?, ?, ?)')
+        const insertKv = db.prepare('INSERT OR REPLACE INTO kv VALUES (?, ?, ?, ?)')
+        let count = fileNames.length
         fileNames.forEach(function fileLoop (fileName) {
           let data
           fs.readFile(fileName, 'utf8', (err, xml) => {
@@ -61,14 +63,14 @@ const db = new sqlite.Database('./stolpersteine/db.sqlite3', function withTable 
                 const nodes = data.osm.node
                 nodes.forEach(node => {
                   const attributes = node._attributes
-                  var okay = true
+                  let okay = true
                   if (attributes) {
                     requiredAttributes.forEach(attr => {
                       okay = okay && Object.prototype.hasOwnProperty.call(attributes, attr)
                     })
                   }
                   if (okay) {
-                    var id = attributes.id
+                    let id = attributes.id
                     insertStein.run(
                       id,
                       '{type: "Point",coordinates:[' + attributes.lon + ',' + attributes.lat + ']}',
@@ -91,6 +93,9 @@ const db = new sqlite.Database('./stolpersteine/db.sqlite3', function withTable 
                     }
                   }
                 })
+              }
+              if (!--count) {
+                db.run('COMMIT TRANSACTION')
               }
             }
           })

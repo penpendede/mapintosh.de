@@ -41,6 +41,7 @@ c.execute('''
         value TEXT,
         FOREIGN KEY(nodeid) REFERENCES stein(nodeid)
     )''')
+c.execute('BEGIN TRANSACTION')
 
 steinData = []
 kvData = []
