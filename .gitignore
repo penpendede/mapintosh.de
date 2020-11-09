@@ -2,3 +2,4 @@ node_modules
 tiles
 *.gpkg-shm
 *.gpkg-wal
+.vscode
