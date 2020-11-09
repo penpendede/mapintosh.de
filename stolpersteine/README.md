@@ -45,4 +45,5 @@ with an average of 10 key-value pairs).
 
 While 11 seconds is not too shabby for a scripting language I managed to cut that time into half by
 [using C](stolpersteine/tools/buildDb.c) this of course requires using a C compiler and having libxml2 and
-SQLite3 C bindings at your disposal (to avoid using even more libraries I have been ).
+SQLite3 C bindings at your disposal (to avoid using even more libraries this version is using a different
+hash function).

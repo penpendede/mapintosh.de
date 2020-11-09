@@ -70,7 +70,7 @@ const db = new sqlite.Database('./stolpersteine/db.sqlite3', function withTable 
                     })
                   }
                   if (okay) {
-                    let id = attributes.id
+                    const id = attributes.id
                     insertStein.run(
                       id,
                       '{type: "Point",coordinates:[' + attributes.lon + ',' + attributes.lat + ']}',
