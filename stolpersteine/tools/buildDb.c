@@ -72,7 +72,7 @@ int main(int argc, char **argv) {
     char * errMsg;
 
     long long id;
-    char geometry[54];
+    char geometry[57];
     char timestamp[21];
     char key[255];
     char value[10240];
@@ -134,10 +134,10 @@ int main(int argc, char **argv) {
         for (cur = rootElement->children; cur; cur = cur->next) {
             if (cur->type == XML_ELEMENT_NODE && !strcmp(cur->name, "node")) {
                 id = atoll(xmlGetProp(cur, "id"));
-                snprintf(geometry, 54, "{type: \"Point\",coordinates:[%11s,%11s]}", xmlGetProp(cur, "lon"), xmlGetProp(cur, "lat"));
+                snprintf(geometry, 57, "{\"type\":\"Point\",\"coordinates\":[%11s,%11s]}", xmlGetProp(cur, "lon"), xmlGetProp(cur, "lat"));
                 snprintf(timestamp, 21, "%s", xmlGetProp(cur, "timestamp"));
                 sqlite3_bind_int64(res, 1, id);
-                sqlite3_bind_text(res, 2, geometry, 53, NULL);
+                sqlite3_bind_text(res, 2, geometry, 56, NULL);
                 sqlite3_bind_int(res, 3, atoi(xmlGetProp(cur, "version")));
                 sqlite3_bind_text(res, 4, timestamp, 20, NULL);
                 sqlite3_step(res);
