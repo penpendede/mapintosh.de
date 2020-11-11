@@ -32,7 +32,8 @@ const db = new sqlite.Database('./stolpersteine/db.sqlite3', function withTable 
           .run(
             'CREATE TABLE stein (' +
             'id INTEGER NOT NULL PRIMARY KEY,' +
-            'geometry TEXT,' +
+            'lat REAL,' +
+            'lng REAL,' +
             'version INTEGER,' +
             'timestamp TEXT' +
             ')'
@@ -47,7 +48,7 @@ const db = new sqlite.Database('./stolpersteine/db.sqlite3', function withTable 
             ')'
           )
           .run('BEGIN TRANSACTION')
-        const insertStein = db.prepare('INSERT OR REPLACE INTO stein VALUES (?, ?, ?, ?)')
+        const insertStein = db.prepare('INSERT OR REPLACE INTO stein VALUES (?, ?, ?, ?, ?)')
         const insertKv = db.prepare('INSERT OR REPLACE INTO kv VALUES (?, ?, ?, ?)')
         let count = fileNames.length
         fileNames.forEach(function fileLoop (fileName) {
@@ -73,7 +74,8 @@ const db = new sqlite.Database('./stolpersteine/db.sqlite3', function withTable 
                     const id = attributes.id
                     insertStein.run(
                       id,
-                      '{type: "Point",coordinates:[' + attributes.lon + ',' + attributes.lat + ']}',
+                      attributes.lon,
+                      attributes.lat,
                       attributes.version,
                       attributes.timestamp
                     )

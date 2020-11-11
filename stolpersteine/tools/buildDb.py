@@ -29,7 +29,8 @@ c.execute('DROP TABLE IF EXISTS kv')
 c.execute('''
     CREATE TABLE stein (
         id INTEGER NOT NULL PRIMARY KEY,
-        geometry TEXT,
+        lat REAL,
+        lng REAL,
         version INTEGER,
         timestamp TEXT
     )''')
@@ -53,7 +54,8 @@ for fileName in fileNames:
             steinData.append(
                 (
                     int(child.attrib['id']),
-                    '{type: "Point",coordinates:[' + child.attrib['lon'] + ',' + child.attrib['lat'] + ']}',
+                    float(child.attrib['lat']),
+                    float(child.attrib['lon']),
                     int(child.attrib['version']),
                     child.attrib['timestamp']
                 )
@@ -71,6 +73,6 @@ for fileName in fileNames:
                                 v
                             )
                         )#getId(id, k, v)
-c.executemany('INSERT OR REPLACE INTO stein VALUES (?,?,?,?)', steinData)
+c.executemany('INSERT OR REPLACE INTO stein VALUES (?,?,?,?,?)', steinData)
 c.executemany('INSERT OR REPLACE INTO kv VALUES (?,?,?,?)', kvData)
 conn.commit()
