@@ -5,12 +5,11 @@ const db = new sqlite.Database('./stolpersteine/db.sqlite3', function withTable 
   if (!error) {
     db.all('select lat, lng from stein', [], function processSteins (error, rows) {
       if (!error) {
-        fs.writeFileSync('./stolpersteine/all.geojson',
-          '{"type":"FeatureCollection","features":[' +
+        fs.writeFileSync(
+          './stolpersteine/all.tsv',
           rows.map(function (row) {
-            return '{"type":"Feature","geometry":{type: "Point",coordinates:[' + row.lat + ',' + row.lng + ']},"properties":{}}'
-          }).join(',\n') +
-          ']}'
+            return [row.lat, row.lng].join('\t')
+          }).join('\n')
         )
       }
     })
