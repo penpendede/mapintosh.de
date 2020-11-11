@@ -3,3 +3,4 @@ tiles
 *.gpkg-shm
 *.gpkg-wal
 .vscode
+stolpersteine/db.sqlite3
