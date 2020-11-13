@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Stolpersteins as present in the OSM database</title>
+  <title>Stolpersteins from OSM</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
   <link rel="stylesheet" href="../css/style.min.css" />
@@ -42,13 +42,31 @@
       height: calc(100% - 48px);
       width: 100%;
     }
+    .leaflet-popup-content th, .leaflet-popup-content td {
+      font-size: 9pt;
+      padding: 2px;
+    }
   </style>
 </head>
 
 <body>
-  <div class="title">Stolpersteins as present in the OSM database</div>
+  <div class="title">Stolpersteins from OSM</div>
   <div class="content" id="mapid"></div>
   <script>
+    var FS = '\x1c' // File separator
+    var GS = '\x1d' // Group separator
+    var RS = '\x1e' // Record separator
+    var US = '\x1f' // Unit separator
+    function attributTable(data) {
+      return '<table><tr><th>Attribut</th><th>Wert</th></tr><tr>' +
+        data.split(RS).map(
+          function (row) {
+            return '<th>' +
+              row.split(US).join('</th><td>') +
+              '</td>'
+        }).join('</tr><tr>') +
+        '</tr></table>'
+    }
     var map = L.map('mapid', {
       fullscreenControl: true,
       fullscreenControlOptions: {
@@ -64,18 +82,19 @@
       [36.0041667, -9.49901111],
       [71.1338889, 66.6180556]
     ])
-    fetch('all.tsv')
+    fetch('all.fgru')
       .then(function (response) {
         return response.text()
       })
       .then(function (csv) {
-        markerClusterGroup = L.markerClusterGroup();
+        markerClusterGroup = L.markerClusterGroup()
         var data
-        markerClusterGroup.addLayers(csv.split('\n').map(function (row) {
-          data = row.split('\t')
-          return new L.marker(L.latLng(data[0], data[1]))
+        markerClusterGroup.addLayers(csv.split(FS).map(function (row) {
+          data = row.split(GS)
+          var marker = new L.marker(L.latLng(data[0].split(RS))).bindPopup(attributTable(data[1]))
+          return marker
         }))
-        map.addLayer(markerClusterGroup);
+        map.addLayer(markerClusterGroup)
       })
   </script>
 </body>

@@ -68,9 +68,72 @@ To avoid using even more libraries the C version uses a different hash function.
 using the hash function is ensuring distinct key value pairs the acutal hash has little influence. Just
 don't mix C and node/python.
 
-## Building geoJSON
+## Introducing the fgru file format
 
-You may have noted that the geometries have already been stored as geoJSON geometries. Simplifies
-generating a geoJSON output file. In a first version I'll only extract the geometries from the stein table.
-Later I will make use of the key-value pairs already available in the kv table.
+I didn't find any file format for storing the stolperstein data in a format with little overhead so I
+invented a file format of my own. It has strong similarities with CSV but uses four ASCII characters that
+have almost been forgotten. This is sad as they were specifically designed for encoding plain text datasets.
 
+|Abbreviation|Name                      | description                |
+|------------|--------------------------|----------------------------|
+|FS          |File separator character  |separates logical records   |
+|GS          |Group separator character |separates fields            |
+|RS          |Record separator character|separates repeated subfields|
+|US          |Unit separator character  |separates information items |
+
+In an fgru file, FS is used where a CSV file would use a line break - it separates table rows so to say.
+GS is used where CSV would use a comma (or semicolon, tab, or the like) - it separates table columns so to
+say. The use of RS adds a third dimension to the picture which means that each table cell can contain a
+list of values. Finally, using US allows each of the list elements to be made up of a list. Another way of
+viewing this is that each table cell can itself contain a table.
+
+Let us view this from a more practical angle: In an ordinary CSV file you would represent the stolpersteins
+like this:
+
+```text
+lat1, lng1, JSON1
+lat2, lng2, JSON2
+lat3, lng3, JSON3
+:     :     :
+```
+
+with JSON data representing the key-value pairs. In a fgru file you can do the same (the line breaks are
+only for readability):
+
+```text
+lat1 GS lng1 GS JSON1 FS
+lat2 GS lng2 GS JSON2 FS
+lat3 GS lng3 GS JSON3 FS
+:       :       :
+```
+
+However, the fgru format allows you to use
+
+```text
+lat1 GS lng1 GS key1a US val1a RS key1b US val1b RS key1c US val1c RS ... FS
+lat2 GS lng2 GS key2a US val2a RS key2b US val2b RS key2c US val2c RS ... FS
+lat3 GS lng3 GS key3a US val3a RS key3b US val3b RS key3c US val3c RS ... FS
+:       :       :
+```
+
+Actually that's not the final word as lat and lng belong together. So I actually use is
+
+```text
+lat1 RS lng1 GS key1a US val1a RS key1b US val1b RS key1c US val1c RS ... FS
+lat2 RS lng2 GS key2a US val2a RS key2b US val2b RS key2c US val2c RS ... FS
+lat3 RS lng3 GS key3a US val3a RS key3b US val3b RS key3c US val3c RS ... FS
+:       :       :
+```
+
+Please note that this only makes sense if you are sure that all you store are points, otherwise you'd rather
+use
+
+```text
+lat1a US lng1a RS lat1b US lng1b RS lat1c US lng1c ... GS key1a US val1a RS key1b US val1b RS key1c US val1c RS ... FS
+lat2a US lng2a RS lat2b US lng2b RS lat2c US lng2c ... GS key2a US val2a RS key2b US val2b RS key2c US val2c RS ... FS
+lat3a US lng3a RS lat3b US lng3b RS lat3c US lng3c ... GS key3a US val3a RS key3b US val3b RS key3c US val3c RS ... FS
+:       :       :
+```
+
+In case you wonder why I named the format after flare gas recovery units as used in refineries: I did not,
+that just happen to be the first letters of FS, GS, RS and US, respectively.
