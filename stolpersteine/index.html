@@ -85,14 +85,16 @@
           if (/^(File|Datei):/i.test(imageUrl)) {
             imageUrl = 'https://commons.wikimedia.org/wiki/' + imageUrl
           }
-          if (/^https:\/\/upload\.wikimedia\.org\/wikipedia\/commons/.test(imageUrl) ||
-            /^https:\/\/commons\.wikimedia\.org\/wiki\/(Datei|File)/i.test(imageUrl)
+          if (/^https?:\/\/upload\.wikimedia\.org\/wikipedia\/commons/.test(imageUrl) ||
+            /^https?:\/\/commons\.wikimedia\.org\/wiki\/(Datei|File):/i.test(imageUrl) ||
+            /^https?:\/\/.*\.wikipedia\.org\/wiki.*\/media\/(Datei|File):/.test(imageUrl) ||
+            /^https?:\/\/.*\.wikipedia\.org\/wiki\/(Datei|File):/
           ) {
             var split = imageUrl.split('/')
             var thumbName = split[split.length - 1].replace(/^(File|Datei):/, '')
             return (
               '<a href="' + imageUrl + '" target="_blank">' +
-              '<img src="https://commons.wikimedia.org/w/thumb.php?f=' + thumbName + '&w=200">' +
+              '<img alt="[Foto]" src="https://commons.wikimedia.org/w/thumb.php?f=' + thumbName + '&w=200">' +
               '</a>'
             )
           }
