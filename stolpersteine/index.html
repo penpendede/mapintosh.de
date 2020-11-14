@@ -11,11 +11,14 @@
   <link rel="stylesheet" href="../node_modules/leaflet.fullscreen/Control.FullScreen.css" />
   <link rel="stylesheet" href="../node_modules/leaflet.markercluster/dist/MarkerCluster.css" />
   <link rel="stylesheet" href="../node_modules/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+  <link rel="stylesheet" href="../node_modules/leaflet-easybutton/src/easy-button.css" />
+  <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css" />
   <script src="../node_modules/leaflet/dist/leaflet.js"></script>
   <script src="../node_modules/leaflet.fullscreen/Control.FullScreen.js"></script>
   <script src="../node_modules/leaflet.tilelayer.colorfilter/src/leaflet-tilelayer-colorfilter.min.js"></script>
   <script src="../node_modules/leaflet-boundary-canvas/src/BoundaryCanvas.js"></script>
   <script src="../node_modules/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+  <script src="../node_modules/leaflet-easybutton/src/easy-button.js"></script>
   <style>
     body {
       bottom: 0;
@@ -57,13 +60,60 @@
     var GS = '\x1d' // Group separator
     var RS = '\x1e' // Record separator
     var US = '\x1f' // Unit separator
-    function attributTable(data) {
+    function addStolpersteins(id) {
+      fetch(id + '.fgru')
+      .then(function (response) {
+        return response.text()
+      })
+      .then(function (csv) {
+        if (window.markerClusterGroup) {
+          map.removeLayer(window.markerClusterGroup)
+        }
+        window.markerClusterGroup = L.markerClusterGroup()
+        var data
+        window.markerClusterGroup.addLayers(csv.split(FS).map(function (row) {
+          data = row.split(GS)
+          var marker = new L.marker(L.latLng(data[0].split(RS))).bindPopup(attributeTable(data[1]))
+          return marker
+        }))
+        map.addLayer(window.markerClusterGroup)
+      })
+    }
+    function imageRepresentation (descriptor) {
+      var imageUrl = decodeURIComponent(descriptor)
+        if (imageUrl && imageUrl !== 'undefined') {
+          if (/^(File|Datei):/i.test(imageUrl)) {
+            imageUrl = 'https://commons.wikimedia.org/wiki/' + imageUrl
+          }
+          if (/^https:\/\/upload\.wikimedia\.org\/wikipedia\/commons/.test(imageUrl) ||
+            /^https:\/\/commons\.wikimedia\.org\/wiki\/(Datei|File)/i.test(imageUrl)
+          ) {
+            var split = imageUrl.split('/')
+            var thumbName = split[split.length - 1].replace(/^(File|Datei):/, '')
+            return (
+              '<a href="' + imageUrl + '" target="_blank">' +
+              '<img src="https://commons.wikimedia.org/w/thumb.php?f=' + thumbName + '&w=200">' +
+              '</a>'
+            )
+          }
+        }
+        return (
+          '<a href="' + imageUrl + '" target="_blank">' +
+          'Es ist ein Bild angegeben aber das Adressformat wird nicht unterstützt' +
+          '</a>'
+        )
+    }
+    function attributeTable(data) {
       return '<table><tr><th>Attribut</th><th>Wert</th></tr><tr>' +
         data.split(RS).map(
           function (row) {
-            return '<th>' +
-              row.split(US).join('</th><td>') +
-              '</td>'
+            var kv = row.split(US)
+            kv[0] = kv[0].split(':').join(':<br>')
+            if (kv[0] !== 'image') {
+              return '<th>' + kv[0] + '</th><td>' + kv[1] + '</td>'
+            } else {
+              return '<th>' + kv[0] + '</th><td>' + imageRepresentation(kv[1]) + '</td>'
+            }
         }).join('</tr><tr>') +
         '</tr></table>'
     }
@@ -82,20 +132,13 @@
       [36.0041667, -9.49901111],
       [71.1338889, 66.6180556]
     ])
-    fetch('all.fgru')
-      .then(function (response) {
-        return response.text()
-      })
-      .then(function (csv) {
-        markerClusterGroup = L.markerClusterGroup()
-        var data
-        markerClusterGroup.addLayers(csv.split(FS).map(function (row) {
-          data = row.split(GS)
-          var marker = new L.marker(L.latLng(data[0].split(RS))).bindPopup(attributTable(data[1]))
-          return marker
-        }))
-        map.addLayer(markerClusterGroup)
-      })
+    L.easyButton( 'fa-globe-europe fa-lg', function() {
+      addStolpersteins('all')
+    }, "Alle Stolpersteine").addTo(map);
+    L.easyButton( 'fa-image fa-lg', function() {
+      addStolpersteins('img')
+    }, "Stolpersteine mit Fotos").addTo(map);
+    addStolpersteins('all')
   </script>
 </body>
 

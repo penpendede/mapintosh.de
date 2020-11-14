@@ -6,7 +6,7 @@ const GS = '\x1d' // Group separator
 const RS = '\x1e' // Record separator
 const US = '\x1f' // Unit separator
 
-const data = []
+var data = []
 let currentId = -1
 let currentIdx = -1
 let k
@@ -32,6 +32,21 @@ const db = new sqlite.Database('./stolpersteine/db.sqlite3', function withTable 
         })
         fs.writeFileSync(
           './stolpersteine/all.fgru',
+          data.map(function (row) {
+            return row.lat + RS + row.lng + GS + row.kvs.map(function (row) { return row[0] + US + row[1] }).join(RS)
+          }).join(FS)
+        )
+        data = data.filter(function (row) {
+          var hasImage = false
+          row.kvs.forEach(function (kv) {
+            if (kv[0] === 'image') {
+              hasImage = true
+            }
+          })
+          return hasImage
+        })
+        fs.writeFileSync(
+          './stolpersteine/img.fgru',
           data.map(function (row) {
             return row.lat + RS + row.lng + GS + row.kvs.map(function (row) { return row[0] + US + row[1] }).join(RS)
           }).join(FS)

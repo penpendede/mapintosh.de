@@ -4,9 +4,11 @@
   "description": "mapintosh.de source",
   "main": "index.html",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
     "imurmurhash": "^0.1.4",
     "leaflet": "^1.7.1",
     "leaflet-boundary-canvas": "^1.0.0",
+    "leaflet-easybutton": "^2.4.0",
     "leaflet.fullscreen": "^1.6.0",
     "leaflet.markercluster": "^1.4.1",
     "leaflet.tilelayer.colorfilter": "^1.2.5",
