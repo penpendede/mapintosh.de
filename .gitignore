@@ -4,3 +4,4 @@ tiles
 *.gpkg-wal
 .vscode
 stolpersteine/db.sqlite3
+vendor
