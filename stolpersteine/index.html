@@ -60,6 +60,16 @@
     var GS = '\x1d' // Group separator
     var RS = '\x1e' // Record separator
     var US = '\x1f' // Unit separator
+    var grayIcon = window.L.icon({
+      iconUrl: 'images/marker-gray-icon.png',
+      shadowUrl: 'images/marker-shadow.png',
+      iconSize: [25, 41],
+      iconAnchor: [12, 41],
+      popupAnchor: [1, -34],
+      shadowSize: [41, 41],
+      shadowAnchor: [12, 41]
+    })
+
     function addStolpersteins(id) {
       fetch(id + '.fgru')
       .then(function (response) {
@@ -71,15 +81,22 @@
         }
         window.markerClusterGroup = L.markerClusterGroup()
         var data
+        var marker
         window.markerClusterGroup.addLayers(csv.split(FS).map(function (row) {
           data = row.split(GS)
-          var marker = new L.marker(L.latLng(data[0].split(RS))).bindPopup(attributeTable(data[1]))
+          var result = makeAttributeTable(data[1])
+          if (result[0]) {
+            //marker = new L.marker(L.latLng(data[0].split(RS))).bindPopup(result[1])
+            marker = null
+          } else {
+            marker = new L.marker(L.latLng(data[0].split(RS)), { icon: grayIcon }).bindPopup(result[1])
+          }
           return marker
-        }))
+        }).filter(x => x))
         map.addLayer(window.markerClusterGroup)
       })
     }
-    function imageRepresentation (descriptor) {
+    function getImageRepresentation (descriptor) {
       var imageUrl = decodeURIComponent(descriptor)
         if (imageUrl && imageUrl !== 'undefined') {
           if (/^(File|Datei):/i.test(imageUrl)) {
@@ -92,21 +109,22 @@
           ) {
             var split = imageUrl.split('/')
             var thumbName = split[split.length - 1].replace(/^(File|Datei):/, '')
-            return (
+            return [true,
               '<a href="' + imageUrl + '" target="_blank">' +
               '<img alt="[Foto]" src="https://commons.wikimedia.org/w/thumb.php?f=' + thumbName + '&w=200">' +
               '</a>'
-            )
+              ]
           }
         }
-        return (
+        return [false,
           '<a href="' + imageUrl + '" target="_blank">' +
           'Es ist ein Bild angegeben aber das Adressformat wird nicht unterstützt' +
           '</a>'
-        )
+        ]
     }
-    function attributeTable(data) {
-      return '<table><tr><th>Attribut</th><th>Wert</th></tr><tr>' +
+    function makeAttributeTable(data) {
+      var hasDisplayableImage = false
+      var val = '<table><tr><th>Attribut</th><th>Wert</th></tr><tr>' +
         data.split(RS).map(
           function (row) {
             var kv = row.split(US)
@@ -114,10 +132,15 @@
             if (kv[0] !== 'image') {
               return '<th>' + kv[0] + '</th><td>' + kv[1] + '</td>'
             } else {
-              return '<th>' + kv[0] + '</th><td>' + imageRepresentation(kv[1]) + '</td>'
+              var val = getImageRepresentation(kv[1])
+              if (val[0]) {
+                hasDisplayableImage = true
+              }
+              return '<th>' + kv[0] + '</th><td>' + val[1] + '</td>'
             }
         }).join('</tr><tr>') +
         '</tr></table>'
+      return [hasDisplayableImage, val]
     }
     var map = L.map('mapid', {
       fullscreenControl: true,
