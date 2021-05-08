@@ -1,0 +1,21 @@
+<tr>
+    <th class="name">
+        {% if linkTarget|length > 0 %}
+            <a href="{{ linkTarget | raw }}" target="_blank">{{ title | raw }}</a>
+        {% else %}
+            {{ title | raw }}
+        {% endif %}
+    </th>
+    <td class="modified" style="white-space: nowrap;">
+        {{ modified | raw }}
+    </td>
+    <td class="created" style="white-space: nowrap;">
+        {{ created | raw }}
+    </td>
+    <td>
+        {{ description | raw }}
+    </td>
+    <td>
+        {{ changes | raw }}
+    </td>
+</tr>

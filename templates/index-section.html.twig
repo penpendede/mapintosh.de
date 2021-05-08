@@ -1,0 +1,16 @@
+<h2>{{title | raw }}</h2>
+{{ description | raw }}
+<table id="{{ tableId | raw }}">
+    <thead>
+        <tr>
+            <th><button class="sort" data-sort="name">Map</button></th>
+            <th><button class="sort" data-sort="modified">Modified</button></th>
+            <th><button class="sort" data-sort="created">Created</button></th>
+            <th>Description</th>
+            <th>Changes</th>
+        </tr>
+    </thead>
+    <tbody class="list">
+        {{ tableContent | raw }}
+    </tbody>
+</table>

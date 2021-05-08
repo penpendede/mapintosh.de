@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="upcoming website">
+    <script src="./node_modules/list.js/dist/list.min.js"></script>
+    <link rel="stylesheet" href="./css/style.min.css" />
+    <title>mapintosh.de - penpendede's map site</title>
+</head>
+
+<body>
+    <h1>MAPINTOSH.DE</h1>
+
+    <h1>penpendede's map site</h1>
+
+    <p>
+        Unless stated otherwise, the source of this site is available at
+        <a target="_blank" href="https://github.com/penpendede/mapintosh.de">https://github.com/penpendede/mapintosh.de</a>.
+    </p>
+    <p>
+        Please note that this site is <strong>not</strong> primarily about the actual maps available here but to
+        illustrate ways in which you can use maps and location-related information.
+    </p>
+
+    <h2>Software used for the maps</h2>
+
+    <p>
+        For what I have been using for the maps below see
+        <a href="http://penpende.de/doku.php?id=bookmarks:main#web_maps">penpende.de</a>
+    </p>
+
+    {{ overviewSection | raw}}
+    
+    <h2><a href="changelog.txt" target="_blank">Changelog</a></h2>
+
+    <script>
+        var options = {
+            valueNames: ['name', 'modified', 'created']
+        }
+        var webmapsList = new List('webmaps', options);
+        var qgismapsList = new List('qgismaps', options);
+    </script>
+</body>
+
+</html>
