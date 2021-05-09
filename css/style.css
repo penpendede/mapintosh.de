@@ -30,6 +30,7 @@ th
   text-align: left;
   font-size: 12pt;
   padding: 10px 15px;
+  vertical-align: top;
 }
 td > ul {
   margin-bottom: 0;

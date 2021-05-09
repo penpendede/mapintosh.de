@@ -1,16 +1,27 @@
 <tr>
     <th class="name">
         {% if linkTarget|length > 0 %}
-            <a href="{{ linkTarget | raw }}" target="_blank">{{ title | raw }}</a>
+            <a href="{{ linkTarget }}" target="_blank">{{ title | raw }}</a>
         {% else %}
             {{ title | raw }}
         {% endif %}
     </th>
     <td class="modified" style="white-space: nowrap;">
-        {{ modified | raw }}
+        {{ modified }}
     </td>
     <td class="created" style="white-space: nowrap;">
-        {{ created | raw }}
+        {{ created }}
+    </td>
+    <td>
+        {% if screenshot|length > 0 %}
+            {% if thumbnail|length > 0 %}
+              <a href="{{ screenshotPath }}{{ screenshot }}" target="_blank"><img src="{{ thumbnailPath }}{{ thumbnail }}"></a>
+            {% else %}
+              <a href="{{ screenshotPath }}{{ screenshot }}" target="_blank">Screenshot</a>
+            {% endif %}
+        {% else %}
+            -
+        {% endif %}
     </td>
     <td>
         {{ description | raw }}

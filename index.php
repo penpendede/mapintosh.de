@@ -10,16 +10,20 @@ $loader = new FilesystemLoader(__DIR__ . '/templates');
 $twig = new Environment($loader);
 
 $sections = [];
-foreach ($pageSetup as $section) {
+foreach ($pageSetup['content'] as $section) {
     $rows = [];
     foreach ($section['tableContent'] as $row) {
         array_push($rows, $twig->render('index-section-table-row.html.twig', [
-            "linkTarget" => $row['map']['path'],
-            "title" => $row['map']['title'],
-            "modified" => $row['modified'],
-            "created" => $row['created'],
-            "description" => implode($row['description']),
-            "changes" => implode($row['changes'])
+            'linkTarget' => $row['map']['path'],
+            'title' => $row['map']['title'],
+            'modified' => $row['modified'],
+            'created' => $row['created'],
+            'description' => implode($row['description']),
+            'changes' => implode($row['changes']),
+            'thumbnail' => $row['thumbnail'],
+            'thumbnailPath' => $pageSetup['thumbnailPath'],
+            'screenshot' => $row['screenshot'],
+            'screenshotPath' => $pageSetup['screenshotPath'],
         ]));
     }
     

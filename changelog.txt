@@ -1,3 +1,5 @@
+2021-05-09 added screenshots
+2021-05-08 index page now uses twig
 2020-06-10 added 'Stolpersteine in Bonn'
 2020-06-02 added 'Recycling in Bonn'
 2020-05-31 added 'Trees in Bonn'
